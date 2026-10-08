@@ -131,7 +131,7 @@ export default function Navbar() {
 
             <div>
               <div className="text-lg font-medium tracking-tight text-slate-950">
-                INFO HUB
+                PriceTag HUB
               </div>
 
               <div className="hidden text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400 sm:block">

@@ -51,7 +51,7 @@ export default function Home() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            INFO HUB brings together clear, practical, and useful information
+            PriceTag HUB brings together clear, practical, and useful information
             across technology, AI, health, business, education, and more.
           </p>
 
@@ -199,38 +199,18 @@ export default function Home() {
 
         <p className="mx-auto mt-4 max-w-2xl leading-7 text-zinc-600">
           Explore thousands of useful guides, explanations, and resources as
-          INFO HUB continues to grow.
+          PriceTag HUB continues to grow.
         </p>
 
         <a
           href="/topics"
           className="mt-7 inline-flex rounded-xl bg-blue-600 px-6 py-3 font-medium text-white transition hover:bg-blue-700"
         >
-          Explore INFO HUB
+          Explore PriceTag HUB
         </a>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-zinc-200">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-          <div>
-            <span className="font-semibold text-zinc-900">INFO HUB</span>
-            <span className="ml-2">Knowledge, organized.</span>
-          </div>
-
-          <div className="flex gap-6">
-            <a href="/about" className="hover:text-zinc-900">
-              About
-            </a>
-            <a href="/contact" className="hover:text-zinc-900">
-              Contact
-            </a>
-            <a href="/privacy" className="hover:text-zinc-900">
-              Privacy
-            </a>
-          </div>
-        </div>
-      </footer>
+      
     </main>
   );
 }

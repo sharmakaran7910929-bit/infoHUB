@@ -19,7 +19,7 @@ export default function Footer() {
 
               <div>
                 <div className="text-lg font-medium tracking-tight text-slate-950">
-                  INFO HUB by K2S INFOTECH
+                  PriceTag HUB by K2S INFOTECH
                 </div>
 
                 <div className="text-xs text-slate-400">
@@ -135,7 +135,7 @@ export default function Footer() {
                 href="/about"
                 className="block transition hover:text-blue-600"
               >
-                About INFO HUB
+                About PriceTag HUB
               </a>
 
               <a
@@ -170,7 +170,7 @@ export default function Footer() {
         <div className="mt-10 flex flex-col gap-3 border-t border-slate-100 pt-6 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
 
           <span>
-            © 2026 INFO HUB. All rights reserved.
+            © 2026 PriceTag HUB. All rights reserved.
           </span>
 
           <span>
