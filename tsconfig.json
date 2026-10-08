@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/ai/basics/what-is-artificial-intelligence/page.js", "app/ai/basics/uses-of-artificial-intelligence/page.js", "app/ai/page.js"  ],
   "exclude": ["node_modules"]
 }
