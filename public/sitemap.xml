@@ -22,38 +22,64 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
+ 
+ <url>
+    <loc>https://www.pricetag.co.in/ai/basics/what-is-artificial-intelligence</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://www.pricetag.co.in/ai/basics/uses-of-artificial-intelligence</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pricetag.co.in/ai/basics/types-of-artificial-intelligence</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   <!-- AI Categories -->
   <url>
     <loc>https://www.pricetag.co.in/ai/generative-ai</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://www.pricetag.co.in/ai/generative-ai/what-is-generative-ai</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
+    <loc>https://www.pricetag.co.in/ai/generative-ai/types-of-generative-ai</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pricetag.co.in/ai/generative-ai/uses-of-generative-ai</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://www.pricetag.co.in/ai/machine-learning</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- AI Search-Based Articles: Add when published -->
-
   <url>
-    <loc>https://www.pricetag.co.in/ai/what-is-artificial-intelligence</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.pricetag.co.in/ai/machine-learning/what-is-machine-learning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pricetag.co.in/ai/machine-learning/uses-of-machine-learning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.pricetag.co.in/ai/machine-learning/types-of-machine-learning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
-  <url>
-    <loc>https://www.pricetag.co.in/ai/uses-of-artificial-intelligence</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.pricetag.co.in/ai/types-of-artificial-intelligence</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
 
 </urlset>
