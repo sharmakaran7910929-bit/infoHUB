@@ -24,7 +24,7 @@ export default function AILayout({ children }) {
 
                 <span className="h-2 w-2 rounded-full bg-blue-600" />
 
-                INFO HUB / AI
+                PriceTag HUB / AI
 
               </div>
 

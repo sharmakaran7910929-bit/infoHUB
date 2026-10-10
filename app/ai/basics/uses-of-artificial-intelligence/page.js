@@ -612,9 +612,9 @@ export default function UsesOfArtificialIntelligencePage() {
               />
 
               <RelatedCard
-                href="/ai/basics/examples-of-artificial-intelligence"
-                title="Examples of Artificial Intelligence"
-                text="Explore practical examples of AI in everyday life and different industries."
+                href="/ai/basics/types-of-artificial-intelligence"
+                title="Types of Artificial Intelligence"
+                text="Explore types of AI in everyday life and different industries."
               />
             </div>
           </section>

@@ -228,7 +228,7 @@ export default function AIPage() {
           </p>
 
           <p className="mt-4 text-base leading-8 text-slate-600 sm:text-lg">
-            INFO HUB organizes these ideas into clear topic areas so you can
+            PriceTag HUB organizes these ideas into clear topic areas so you can
             learn progressively instead of jumping between disconnected
             explanations.
           </p>

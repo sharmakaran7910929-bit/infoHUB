@@ -514,14 +514,14 @@ export default function ArtificialIntelligencePage() {
               </a>
 
               <a
-                href="/ai/basics/examples-of-artificial-intelligence"
+                href="/ai/basics/types-of-artificial-intelligence"
                 className="group rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-md"
               >
                 <p className="font-semibold group-hover:text-blue-600">
-                  Examples of Artificial Intelligence
+                  Types of Artificial Intelligence
                 </p>
                 <p className="mt-2 text-sm text-slate-500">
-                  Discover examples of AI you may already use every day.
+                  Discover types of AI you may already use every day.
                 </p>
               </a>
             </div>
@@ -533,31 +533,7 @@ export default function ArtificialIntelligencePage() {
 
       </div>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-          <div>
-            <span className="font-bold text-slate-900">INFO HUB</span>
-            <span className="ml-2">
-              Knowledge, organized.
-            </span>
-          </div>
-
-          <div className="flex gap-6">
-            <a href="/about" className="hover:text-blue-600">
-              About
-            </a>
-
-            <a href="/contact" className="hover:text-blue-600">
-              Contact
-            </a>
-
-            <a href="/privacy" className="hover:text-blue-600">
-              Privacy
-            </a>
-          </div>
-        </div>
-      </footer>
+     
 
     </main>
   );

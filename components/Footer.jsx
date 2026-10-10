@@ -61,108 +61,15 @@ export default function Footer() {
                 Artificial Intelligence
               </a>
 
-              <a
-                href="/technology"
-                className="block transition hover:text-blue-600"
-              >
-                Technology
-              </a>
-
-              <a
-                href="/business"
-                className="block transition hover:text-blue-600"
-              >
-                Business
-              </a>
-
+             
             </div>
 
           </div>
 
 
-          {/* Topics */}
-          <div>
+         
 
-            <h3 className="text-sm font-medium text-slate-950">
-              Topics
-            </h3>
-
-            <div className="mt-4 space-y-3 text-sm text-slate-500">
-
-              <a
-                href="/education"
-                className="block transition hover:text-blue-600"
-              >
-                Education
-              </a>
-
-              <a
-                href="/health"
-                className="block transition hover:text-blue-600"
-              >
-                Health
-              </a>
-
-              <a
-                href="/finance"
-                className="block transition hover:text-blue-600"
-              >
-                Finance
-              </a>
-
-              <a
-                href="/career"
-                className="block transition hover:text-blue-600"
-              >
-                Career
-              </a>
-
-            </div>
-
-          </div>
-
-
-          {/* Information */}
-          <div>
-
-            <h3 className="text-sm font-medium text-slate-950">
-              Information
-            </h3>
-
-            <div className="mt-4 space-y-3 text-sm text-slate-500">
-
-              <a
-                href="/about"
-                className="block transition hover:text-blue-600"
-              >
-                About PriceTag HUB
-              </a>
-
-              <a
-                href="/contact"
-                className="block transition hover:text-blue-600"
-              >
-                Contact
-              </a>
-
-              <a
-                href="/privacy"
-                className="block transition hover:text-blue-600"
-              >
-                Privacy Policy
-              </a>
-
-              <a
-                href="/terms"
-                className="block transition hover:text-blue-600"
-              >
-                Terms of Use
-              </a>
-
-            </div>
-
-          </div>
-
+       
         </div>
 
 
