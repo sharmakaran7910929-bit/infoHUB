@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://www.pricetag.co.in";
 const APP_DIR = path.join(process.cwd(), "app");
 
 function discoverPages(directory, route = "") {
