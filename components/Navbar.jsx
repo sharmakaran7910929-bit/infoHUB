@@ -9,6 +9,13 @@ import {
   Sparkles,
   Network,
   House,
+  Router,
+  ShieldCheck,
+  Cable,
+  Terminal,
+  Wifi,
+  Globe,
+  Workflow,
 } from "lucide-react";
 
 const navItems = [
@@ -36,6 +43,48 @@ const navItems = [
         title: "Machine Learning",
         href: "/ai/machine-learning",
         icon: Network,
+      },
+    ],
+  },
+  {
+    title: "Networking",
+    href: "/networking",
+    icon: Network,
+    children: [
+      {
+        title: "Networking Fundamentals",
+        href: "/networking/fundamentals",
+        icon: BookOpen,
+      },
+      {
+        title: "IP Addressing",
+        href: "/networking/ip-addressing",
+        icon: Globe,
+      },
+      {
+        title: "Network Devices",
+        href: "/networking/network-devices",
+        icon: Router,
+      },
+      {
+        title: "Network Security",
+        href: "/networking/network-security",
+        icon: ShieldCheck,
+      },
+      {
+        title: "Network Tools",
+        href: "/networking/network-tools",
+        icon: Terminal,
+      },
+      {
+        title: "Protocols & Architecture",
+        href: "/networking/protocols-and-architecture",
+        icon: Workflow,
+      },
+      {
+        title: "Wi-Fi & Routers",
+        href: "/networking/wifi-and-routers",
+        icon: Wifi,
       },
     ],
   },
@@ -158,6 +207,7 @@ function DesktopNavItem({ item }) {
       >
         {Icon && <Icon size={17} />}
         {item.title}
+
         <ChevronDown
           size={14}
           className="text-slate-400 transition-transform group-hover:rotate-180"
@@ -165,14 +215,14 @@ function DesktopNavItem({ item }) {
       </Link>
 
       {/* Dropdown */}
-      <div className="invisible absolute left-0 top-full z-50 w-64 pt-2 opacity-0 transition duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+      <div className="invisible absolute left-0 top-full z-50 w-72 pt-2 opacity-0 transition duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
         <div className="rounded-2xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/10">
           <Link
             href={item.href}
             className="flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-semibold text-slate-900 transition hover:bg-blue-50 hover:text-blue-600"
           >
-            <BrainCircuit size={17} />
-            All AI Topics
+            <Icon size={17} className="text-blue-600" />
+            All {item.title} Topics
           </Link>
 
           <div className="my-1 border-t border-slate-100" />
@@ -186,7 +236,10 @@ function DesktopNavItem({ item }) {
                 href={child.href}
                 className="flex items-center gap-3 rounded-xl px-4 py-2.5 text-sm text-slate-600 transition hover:bg-slate-50 hover:text-blue-600"
               >
-                <ChildIcon size={17} className="text-slate-400" />
+                <ChildIcon
+                  size={17}
+                  className="shrink-0 text-slate-400"
+                />
                 {child.title}
               </Link>
             );
@@ -262,7 +315,10 @@ function MobileNavItem({
                 onClick={onNavigate}
                 className="flex items-center gap-3 rounded-xl px-4 py-3 text-sm text-slate-600 transition hover:bg-slate-50 hover:text-blue-600"
               >
-                <ChildIcon size={17} className="text-slate-400" />
+                <ChildIcon
+                  size={17}
+                  className="shrink-0 text-slate-400"
+                />
                 {child.title}
               </Link>
             );

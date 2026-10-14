@@ -111,8 +111,10 @@ export default function RootLayout({ children }) {
 
         <main className="flex-1">{children}</main>
  {/* Google Analytics 4 */}
+
+        {/* Google Analytics 4 */}
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-QC7NG0L0Y9"
           strategy="afterInteractive"
         />
 
@@ -122,9 +124,10 @@ export default function RootLayout({ children }) {
             function gtag(){window.dataLayer.push(arguments);}
             window.gtag = gtag;
             gtag('js', new Date());
-            gtag('config', '${GA_MEASUREMENT_ID}');
+            gtag('config', 'G-QC7NG0L0Y9');
           `}
         </Script>
+
         <Footer />
       </body>
     </html>

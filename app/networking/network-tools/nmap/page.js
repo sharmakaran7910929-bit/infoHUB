@@ -815,7 +815,18 @@ export default function NmapPage() {
             title="Explore related networking topics"
             description="Build on your understanding of network discovery, traffic control, and defensive monitoring."
           />
-          <RelatedTopics />
+          <RelatedTopics links={[
+            {
+              href:'/networking/network-tools',
+              label:'Network Tools'
+            },{
+              href:'/networking/network-tools/wireshark',
+              label:'WireShark'
+            },{
+              href:'/networking/fundamentals',
+              label:'Fundamentals'
+            }
+          ]} />
         </div>
       </section>
     </main>
