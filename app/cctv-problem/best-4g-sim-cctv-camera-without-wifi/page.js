@@ -127,7 +127,7 @@ export const metadata = {
   description:
     "Learn how to choose a 4G SIM CCTV camera without Wi-Fi. Compare network coverage, data costs, power, storage, night vision, and outdoor features.",
   alternates: {
-    canonical: "/best-4g-sim-cctv-camera-without-wifi",
+    canonical: "/cctv-problem/best-4g-sim-cctv-camera-without-wifi",
   },
 };
 

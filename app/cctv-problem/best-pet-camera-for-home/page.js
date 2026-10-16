@@ -37,7 +37,7 @@ export const metadata = {
     "pet camera with night vision",
   ],
   alternates: {
-    canonical: "/best-pet-camera-for-home",
+    canonical: "/cctv-problem/best-pet-camera-for-home",
   },
   openGraph: {
     title: "Best Pet Camera for Home",
