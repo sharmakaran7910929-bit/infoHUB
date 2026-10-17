@@ -2,7 +2,7 @@ import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Types of Artificial Intelligence: A Complete Guide",
+  title: "Types of Artificial Intelligence",
   description:
     "Learn about the different types of artificial intelligence, including narrow AI, general AI, super AI, reactive machines, limited memory, theory of mind, and self-aware AI.",
 };
