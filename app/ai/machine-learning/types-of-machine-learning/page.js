@@ -2,6 +2,16 @@ import Link from "next/link";
 import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
+export const metadata = {
+  title: "Types of Machine Learning: 4 Main Types Explained",
+  description:
+    "Learn the 4 main types of machine learning: supervised, unsupervised, semi-supervised, and reinforcement learning, with examples and key differences.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/machine-learning/types-of-machine-learning",
+  },
+};
+
 const learningTypes = [
   {
     number: "01",
