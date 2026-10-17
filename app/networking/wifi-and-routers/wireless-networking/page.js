@@ -25,7 +25,15 @@ import {
 
 import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
-
+export const metadata = {
+  title: "Wireless Networking | Wi-Fi Bands, Speed & Security",
+  description:
+    "Learn how wireless networking works, compare 2.4 GHz, 5 GHz, and 6 GHz Wi-Fi bands, improve signal strength, reduce interference, choose network equipment, and secure wireless connections.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/networking/wifi-and-routers/wireless-networking",
+  },
+};
 
 const colorStyles = {
   emerald: {
