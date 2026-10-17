@@ -34,9 +34,9 @@ import RelatedTopics from '../../../../components/ContinueReading'
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "What Is Economics? Definition, Meaning and Real-Life Examples | PriceTag HUB",
+  title: "What Is Economics ? Definition, Meaning and Real-Life Examples | PriceTag HUB",
   description:
-    "Learn what economics means, how it works, its main areas, and practical examples of a household budget, clothing business capital, and an illustrative country budget.",
+    "Learn What Economics Means, How it works, its main areas, and practical examples of a household budget, clothing business capital, and an illustrative country budget.",
   alternates: {
     canonical: "/economics/basics/what-is-economics",
   },
@@ -843,6 +843,10 @@ export default function WhatIsEconomicsPage() {
        <RelatedTopics 
        title='Explore More About Economics'
        links={[
+        {
+        href:'/economics/basics/what-is-economics',
+        label:'What is Economics'
+       },
        {
         href:'/economics/basics/scarcity-in-economics',
         label:'Scarcity in Economics'
