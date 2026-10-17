@@ -4,7 +4,7 @@ import AdSlot from "../../../../components/AdSlot";
 
 
 export const metadata = {
-  title: "Uses of Machine Learning: 10 Real-World Applications",
+  title: "Uses of Machine Learning | 10 Real-World Applications",
   description:
     "Explore 10 uses of machine learning in healthcare, banking, education, cybersecurity, agriculture, and more, with practical examples and key benefits.",
   alternates: {
