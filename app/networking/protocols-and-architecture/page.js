@@ -14,6 +14,17 @@ import {
   Search,
 } from "lucide-react";
 
+export const metadata = {
+  title: "Network Protocols & Architecture: OSI, TCP/IP and Ports",
+  description:
+    "Learn network protocols, the 7 OSI layers, TCP/IP architecture, common port numbers, network devices, encapsulation, troubleshooting commands, and security fundamentals.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/networking/protocols-and-architecture",
+  },
+ 
+};
+
 const osiLayers = [
   {
     number: 7,
