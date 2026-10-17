@@ -4,18 +4,13 @@ import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Wireless Security: Wi-Fi Protection, WPA3 & Best Practices",
+  title: "Wireless Security | Wi-Fi Protection, WPA3 & Best Practices",
   description:
-    "Learn wireless security fundamentals, Wi-Fi encryption, WPA2 and WPA3, router hardening, rogue access points, common attacks, and practical protection techniques.",
+    "Learn Wireless Security Fundamentals, Wi-Fi encryption, WPA2 and WPA3, Router Hardening, Rogue Access Points, Common Attacks, and Practical protection techniques.",
   alternates: {
     canonical: "/networking/network-security/wireless-security",
   },
-  openGraph: {
-    title: "Wireless Security: A Practical Wi-Fi Protection Guide",
-    description:
-      "Understand Wi-Fi security, wireless threats, encryption standards, router protection, and network defense best practices.",
-    type: "article",
-  },
+
 };
 
 const faqs = [
