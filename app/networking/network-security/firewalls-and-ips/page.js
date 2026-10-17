@@ -7,19 +7,13 @@ const pageUrl =
   "https://pricetag.co.in/networking/network-security/firewalls-and-ips";
 
 export const metadata = {
-  title: "Firewalls and IPS Explained: Types, Uses and Security",
+  title: "Firewalls and IPS Explained | Types, Uses and Security",
   description:
-    "Learn how firewalls and intrusion prevention systems work, compare firewall types, understand IPS protection, and explore practical network security.",
+    "Learn How Firewalls and Intrusion Prevention Systems Work, Compare Firewall Types, Understand IPS Protection, and Explore Practical Network Security.",
   alternates: {
     canonical: "/networking/network-security/firewalls-and-ips",
   },
-  openGraph: {
-    title: "Firewalls and IPS Explained",
-    description:
-      "Understand firewall rules, IPS protection, network security diagrams, and practical defense strategies.",
-    url: pageUrl,
-    type: "article",
-  },
+  
 };
 
 const articleSchema = {
