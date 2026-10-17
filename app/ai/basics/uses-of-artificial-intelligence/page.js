@@ -2,7 +2,7 @@ import Breadcrumbs from "@/components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Uses of Artificial Intelligence: How AI Is Used in Everyday Life",
+  title: "Uses of Artificial Intelligence",
   description:
     "Explore the uses of artificial intelligence in everyday life, healthcare, education, business, finance, transportation, cybersecurity, entertainment, and more.",
 };

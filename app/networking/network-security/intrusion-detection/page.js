@@ -6,19 +6,13 @@ const pageUrl =
   "https://pricetag.co.in/networking/network-security/intrusion-detection";
 
 export const metadata = {
-  title: "Intrusion Detection Systems (IDS): How Network Threats Are Detected",
+  title: "Intrusion Detection Systems (IDS) | How Network Threats Are Detected",
   description:
-    "Learn how intrusion detection systems (IDS) monitor network traffic, detect suspicious activity, generate alerts, and help security analysts investigate threats.",
+    "Learn How Intrusion Detection Systems (IDS) Monitor Network Traffic, Detect Suspicious Activity, Generate Alerts, and Help Security Analysts Investigate Threats.",
   alternates: {
-    canonical: pageUrl,
+    canonical:  "https://pricetag.co.in/networking/network-security/intrusion-detection"
   },
-  openGraph: {
-    title: "Intrusion Detection Systems (IDS) Explained",
-    description:
-      "Understand IDS detection methods, network monitoring, security alerts, and the difference between IDS and IPS.",
-    url: pageUrl,
-    type: "article",
-  },
+
 };
 
 const faqs = [

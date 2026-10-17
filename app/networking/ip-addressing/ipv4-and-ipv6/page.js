@@ -12,13 +12,7 @@ export const metadata = {
   alternates: {
     canonical: "/networking/ip-addressing/ipv4-and-ipv6",
   },
-  openGraph: {
-    title: "IPv4 vs IPv6: Differences, Examples and Uses",
-    description:
-      "Understand IPv4 and IPv6 addressing, their differences, and how they work in modern networks.",
-    url: pageUrl,
-    type: "article",
-  },
+  
 };
 
 const articleSchema = {

@@ -2,6 +2,18 @@ import Link from "next/link";
 import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "What Is Generative AI? Meaning, How It Works & Examples",
+  description:
+    "Learn what generative AI is, how it works, and how it creates text, images, audio, video, and code. Explore examples, benefits, limitations, and how it differs from predictive AI.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/generative-ai/what-is-generative-ai",
+  },
+};
+
+
 export default function WhatIsGenerativeAIPage() {
   return (
     <div className="min-h-screen bg-slate-50">

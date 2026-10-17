@@ -4,17 +4,11 @@ import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Subnetting Explained: Subnet Masks, CIDR & Examples",
+  title: "Subnetting Explained | Subnet Masks, CIDR & Examples",
   description:
-    "Learn IPv4 subnetting from the basics. Understand subnet masks, CIDR notation, network addresses, broadcast addresses, usable hosts, and step-by-step subnetting examples.",
+    "Learn IPv4 Subnetting from the Basics. Understand Subnet Masks, CIDR notation, Network Addresses, Broadcast Addresses, Usable hosts, and Step-by-step Subnetting examples.",
   alternates: {
     canonical: "/networking/ip-addressing/subnetting",
-  },
-  openGraph: {
-    title: "Subnetting Explained: A Beginner's Guide",
-    description:
-      "Understand IPv4 subnetting, subnet masks, CIDR prefixes, network ranges, and usable hosts with practical examples.",
-    type: "article",
   },
 };
 

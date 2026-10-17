@@ -16,6 +16,16 @@ import {
 } from "lucide-react";
 import AdSlot from "../../../../components/AdSlot";
 
+export const metadata = {
+  title: "Wireshark | Filters, Commands & Packet Analysis",
+  description:
+    "Learn how to use Wireshark for packet capture, DNS and TCP analysis, display filters, TShark commands, network troubleshooting, and security monitoring.",
+  alternates: {
+    canonical: "/networking/network-tools/wireshark",
+  },
+
+};
+
 const filters = [
   {
     name: "DNS",

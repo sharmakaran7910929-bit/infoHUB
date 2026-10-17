@@ -1,3 +1,14 @@
+
+export const metadata = {
+  title: "Artificial Intelligence (AI): Guides, Tools & Applications",
+  description:
+    "Explore artificial intelligence with beginner-friendly guides to AI basics, machine learning, generative AI, AI tools, real-world applications, and business uses.",
+  alternates: {
+    canonical: "https://www.pricetag.co.in/ai",
+  },
+};
+
+
 const categories = [
   {
     title: "AI Basics",

@@ -3,7 +3,7 @@ import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Network Architecture Explained: Client-Server, P2P and Three-Tier Design",
+  title: "Network Architecture Explained | Client-Server, P2P and Three-Tier Design",
   description:
     "Learn network architecture, client-server and peer-to-peer models, network layers, three-tier design, and security considerations with practical examples.",
   alternates: {

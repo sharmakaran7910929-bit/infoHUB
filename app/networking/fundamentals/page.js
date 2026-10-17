@@ -2,9 +2,9 @@ import Link from "next/link";
 import RelatedTopics from "../../../components/ContinueReading";
 import AdSlot from "../../../components/AdSlot";
 export const metadata = {
-  title: "Computer Networking Fundamentals: A Beginner's Guide",
+  title: "Computer Networking Fundamentals | A Beginner's Guide",
   description:
-    "Learn computer networking fundamentals, including how networks communicate, packets, IP addresses, routers, switches, and the basics of network design.",
+    "Learn Computer Networking Fundamentals, including How Networks Communicate, Packets, IP addresses, Routers, Switches, and the Basics of Network Design.",
   alternates: {
     canonical: "/networking/fundamentals",
   },

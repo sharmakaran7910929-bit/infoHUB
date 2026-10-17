@@ -3,18 +3,13 @@ import Link from "next/link";
 import RelatedTopics from '../../../components/ContinueReading'
 import AdSlot from '../../../components/AdSlot'
 export const metadata = {
-  title: "IP Addressing Explained: IPv4, IPv6 & Subnetting",
+  title: "IP Addressing Explaine | IPv4, IPv6 & Subnetting",
   description:
     "Learn IP addressing from the basics, including IPv4 and IPv6, public and private IP addresses, subnetting, CIDR notation, and network communication.",
   alternates: {
     canonical: "/networking/ip-addressing",
   },
-  openGraph: {
-    title: "IP Addressing Explained: IPv4, IPv6 & Subnetting",
-    description:
-      "A practical guide to IP addresses, subnetting, IPv4, IPv6, and network fundamentals.",
-    type: "article",
-  },
+ 
 };
 
 const topics = [

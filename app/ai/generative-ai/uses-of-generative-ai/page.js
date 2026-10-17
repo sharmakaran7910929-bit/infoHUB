@@ -2,6 +2,18 @@ import Link from "next/link";
 import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "Uses of Generative AI",
+  description:
+    "Discover 12 main uses of generative AI in writing, design, coding, education, business, healthcare, cybersecurity, and more, with practical examples, benefits, and limitations.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/generative-ai/uses-of-generative-ai",
+  },
+};
+
+
 const applications = [
   {
     icon: "✍️",

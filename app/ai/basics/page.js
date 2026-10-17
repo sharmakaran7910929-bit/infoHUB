@@ -2,6 +2,17 @@ import Link from "next/link";
 import Breadcrumbs from '../../../components/Breadcrumb'
 import AdSlot from "../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "AI Basics: A Beginner’s Guide to Artificial Intelligence",
+  description:
+    "Explore AI basics with beginner-friendly guides to artificial intelligence, its uses, types, and core concepts. Start learning AI step by step.",
+  alternates: {
+    canonical: "https://www.pricetag.co.in/ai/basics",
+  },
+};
+
+
 const articles = [
   {
     title: "What Is Artificial Intelligence?",

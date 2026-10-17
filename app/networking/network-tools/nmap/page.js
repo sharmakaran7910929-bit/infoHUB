@@ -15,22 +15,16 @@ import {
   Wifi,
 } from "lucide-react";
 import AdSlot from "../../../../components/AdSlot";
-const pageUrl = "https://pricetag.co.in/networking/network-security/nmap";
+const pageUrl = "https://pricetag.co.in/networking/network-tools/nmap";
 
 export const metadata = {
   title: "Nmap Tutorial: Commands, Port Scanning & Practice",
   description:
     "Learn Nmap from beginner to intermediate level with practical commands for host discovery, port scanning, service detection, scan interpretation, and authorized network security testing.",
   alternates: {
-    canonical: pageUrl,
+    canonical: '/networking/network-tools/nmap',
   },
-  openGraph: {
-    title: "Nmap Tutorial: From Beginner to Intermediate",
-    description:
-      "Understand Nmap, learn essential scanning commands, and practice network discovery in an authorized lab.",
-    url: pageUrl,
-    type: "article",
-  },
+ 
 };
 
 const basics = [

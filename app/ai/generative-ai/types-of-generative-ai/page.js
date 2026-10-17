@@ -17,6 +17,18 @@ import {
 import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "Types of Generative AI",
+  description:
+    "Explore the main types of generative AI, including text, image, audio, video, code, 3D, conversational, and multimodal AI, with examples and practical uses.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/generative-ai/types-of-generative-ai",
+  },
+};
+
+
 const generativeAITypes = [
   {
     title: "Text Generation",

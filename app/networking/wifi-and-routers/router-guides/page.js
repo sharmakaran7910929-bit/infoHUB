@@ -19,6 +19,17 @@ import {
 import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "Router Guide | Types, How Routers Work & Security",
+  description:
+    "Learn how routers work, explore wireless, wired, cellular, VPN, and enterprise router types, compare router and modem functions, and follow practical setup and security checklists.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/networking/wifi-and-routers/router-guides",
+  },
+};
+
 const routerTypes = [
   {
     title: "Wireless router",

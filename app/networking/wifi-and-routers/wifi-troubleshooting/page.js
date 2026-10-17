@@ -23,7 +23,15 @@ import {
 
 import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
-
+export const metadata = {
+  title: "Wi-Fi Troubleshooting | Common Problems and Fixes",
+  description:
+    "Learn how to fix common Wi-Fi problems, including slow speeds, disconnections, missing networks, and no internet access. Follow practical troubleshooting steps and Windows network diagnostic commands.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/networking/wifi-and-routers/wifi-troubleshooting",
+  },
+};
 const problems = [
   {
     title: "Connected to Wi-Fi, but no internet",

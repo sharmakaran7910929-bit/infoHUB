@@ -2,6 +2,18 @@ import Link from "next/link";
 import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "What Is Machine Learning? Meaning, Examples & How It Works",
+  description:
+    "Learn what machine learning is, how it works, and how computers learn patterns from data. Explore practical examples, benefits, and limitations.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/machine-learning/what-is-machine-learning",
+  },
+};
+
+
 const concepts = [
   {
     title: "Learning from Data",

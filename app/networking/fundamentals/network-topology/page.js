@@ -3,9 +3,9 @@ import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Network Topology Explained: Star, Bus, Ring, Mesh and Tree",
+  title: "Network Topology Explained | Star, Bus, Ring, Mesh and Tree",
   description:
-    "Learn network topology types, including star, bus, ring, mesh, tree, and hybrid topologies, with diagrams, real-world examples, advantages, disadvantages, and security considerations.",
+    "Learn Network Topology Types, including Star, Bus, Ring, Mesh, Tree, and Hybrid topologies, with diagrams, real-world examples, Advantages, Disadvantages, and Security considerations.",
   alternates: {
     canonical: "/networking/fundamentals/network-topology",
   },

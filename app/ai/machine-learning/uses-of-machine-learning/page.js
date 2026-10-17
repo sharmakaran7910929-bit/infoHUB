@@ -2,6 +2,18 @@ import Link from "next/link";
 import Breadcrumbs from "../../../../components/Breadcrumb";
 import AdSlot from "../../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "Uses of Machine Learning | 10 Real-World Applications",
+  description:
+    "Explore 10 uses of machine learning in healthcare, banking, education, cybersecurity, agriculture, and more, with practical examples and key benefits.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/machine-learning/uses-of-machine-learning",
+  },
+};
+
+
 const applications = [
   {
     number: "01",
