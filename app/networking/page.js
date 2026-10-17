@@ -4,11 +4,11 @@ import RelatedTopics from "../../components/ContinueReading";
 import AdSlot from "../../components/AdSlot";
 
 export const metadata = {
-  title: "Computer Networking: Types, Basics, Tools and Security",
+  title: "Computer Networking | Types, Basics, Tools and Security",
   description:
     "Learn computer networking, network types, topology, IP addressing, Wi-Fi, routers, protocols, troubleshooting, and network security with practical guides.",
   alternates: {
-    canonical: "/networking",
+    canonical: "https://www.pricetag.co.in/networking",
   },
 };
 
