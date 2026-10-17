@@ -6,19 +6,13 @@ const pageUrl =
   "https://pricetag.co.in/networking/network-security";
 
 export const metadata = {
-  title: "Network Security: Fundamentals, Types and Best Practices",
+  title: "Network Security | Fundamentals, Types and Best Practices",
   description:
-    "Learn network security fundamentals, common threats, access controls, firewalls, intrusion detection, network monitoring, wireless security, and defensive practices.",
+    "Learn Network Security Fundamentals, Common Threats, Access Controls, Firewalls, Intrusion Detection, Network Monitoring, Wireless Security, and Defensive practices.",
   alternates: {
     canonical: "/networking/network-security",
   },
-  openGraph: {
-    title: "Network Security: Fundamentals and Best Practices",
-    description:
-      "Understand network security, common threats, defensive technologies, monitoring, and wireless protection.",
-    url: pageUrl,
-    type: "article",
-  },
+ 
 };
 
 const articleSchema = {
