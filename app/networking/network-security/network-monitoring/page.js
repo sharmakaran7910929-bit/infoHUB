@@ -7,19 +7,13 @@ const pageUrl =
   "https://pricetag.co.in/networking/network-security/network-monitoring";
 
 export const metadata = {
-  title: "Network Monitoring: Tools, Methods and Security Explained",
+  title: "Network Monitoring | Tools, Methods and Security Explained",
   description:
-    "Learn how network monitoring works, what traffic, logs and performance metrics reveal, how security analysts investigate suspicious activity, and which monitoring practices help protect networks.",
+    "Learn How Network Monitoring Works, What Traffic, Logs and Performance Metrics Reveal, How Security Analysts Investigate Suspicious Activity, and Which monitoring practices help protect networks.",
   alternates: {
-    canonical: pageUrl,
+    canonical:  "https://pricetag.co.in/networking/network-security/network-monitoring"
   },
-  openGraph: {
-    title: "Network Monitoring: A Practical Guide",
-    description:
-      "Understand network traffic monitoring, logs, performance metrics, security alerts and defensive monitoring practices.",
-    url: pageUrl,
-    type: "article",
-  },
+  
 };
 
 const faqs = [
