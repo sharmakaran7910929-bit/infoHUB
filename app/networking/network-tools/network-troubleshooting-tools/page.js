@@ -34,17 +34,11 @@ const pageUrl =
 export const metadata = {
   title: "Network Troubleshooting Tools & Commands | PriceTag Hub",
   description:
-    "Diagnose common network problems with practical Windows commands, step-by-step fixes, DNS troubleshooting, Wi-Fi diagnostics, ping tests, traceroute, and network troubleshooting guides.",
+    "Diagnose Common Network Problems with Practical Windows commands, step-by-step fixes, DNS troubleshooting, Wi-Fi diagnostics, ping tests, traceroute, and network troubleshooting guides.",
   alternates: {
-    canonical: pageUrl,
+    canonical: "/networking/network-troubleshooting-tools",
   },
-  openGraph: {
-    title: "Network Troubleshooting Tools & Commands",
-    description:
-      "Learn how to diagnose slow internet, DNS errors, Wi-Fi failures, packet loss, and IP configuration problems.",
-    url: pageUrl,
-    type: "article",
-  },
+  
 };
 
 const problems = [
