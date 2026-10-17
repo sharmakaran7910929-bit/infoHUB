@@ -2,6 +2,17 @@ import Link from "next/link";
 import Breadcrumbs from "../../../components/Breadcrumb";
 import AdSlot from "../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "Machine Learning | Beginner Guides, Types & Applications",
+  description:
+    "Learn machine learning basics, and how machine learning is used in business, healthcare, cybersecurity, and everyday technology. Explore types and practical examples.",
+  alternates: {
+    canonical: "https://www.pricetag.co.in/ai/machine-learning",
+  },
+};
+
+
 const articles = [
   {
     title: "What Is Machine Learning?",
