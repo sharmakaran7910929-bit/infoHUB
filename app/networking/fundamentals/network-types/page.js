@@ -3,9 +3,9 @@ import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Types of Computer Networks: PAN, LAN, WLAN, MAN, WAN and VPN",
+  title: "Types of Computer Networks | PAN, LAN, WLAN, MAN, WAN and VPN",
   description:
-    "Learn the main types of computer networks, including PAN, LAN, WLAN, CAN, MAN, WAN, SAN, and VPN, with practical examples and a comparison table.",
+    "Learn the Main Types of Computer Networks, including PAN, LAN, WLAN, CAN, MAN, WAN, SAN, and VPN, with practical examples and a comparison table.",
   alternates: {
     canonical: "/networking/fundamentals/network-types",
   },
