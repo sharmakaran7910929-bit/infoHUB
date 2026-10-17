@@ -1,11 +1,12 @@
 
 import Link from "next/link";
 import AdSlot from "../../../../components/AdSlot";
+import RelatedTopics from "../../../../components/ContinueReading";
 
 export const metadata = {
   title: "Scarcity in Economics | Meaning, Examples & Solutions",
   description:
-    "Understand scarcity in economics through real-life household, clothing business, and country examples. Learn its causes, effects, types, and practical solutions.",
+    "Understand Scarcity in Economics through real-life household, clothing business, and country examples. Learn its causes, effects, types, and practical solutions.",
   alternates: {
     canonical:
       "https://www.pricetag.co.in/economics/basics/scarcity-in-economics",
@@ -1027,56 +1028,59 @@ export default function ScarcityInEconomicsPage() {
           </div>
         </section>
 
-        {/* Related Topics */}
-        <section className="mb-8 rounded-3xl border border-blue-200 bg-gradient-to-br from-blue-50 via-white to-indigo-50 p-5 sm:p-7">
-          <h2 className="mb-3 text-2xl font-bold text-gray-900">
-            Continue Learning Economics
-          </h2>
-
-          <p className="mb-5 leading-7 text-gray-700">
-            Build your understanding of how limited resources influence
-            choices, production, and markets by exploring related topics.
-          </p>
-
-          <div className="grid gap-3 sm:grid-cols-2">
-            {[
-              {
-                title: "Opportunity Cost",
-                description:
-                  "Understand The Value Of The Next-Best Alternative.",
-                href: "/economics/basics/opportunity-cost",
+        {/* Related topics */}
+              <RelatedTopics 
+              title='Explore More About Economics'
+              links={[
+               {
+               href:'/economics/basics/what-is-economics',
+               label:'What is Economics'
               },
               {
-                title: "Factors Of Production",
-                description:
-                  "Learn About Land, Labour, Capital, And Enterprise.",
-                href: "/economics/basics/factors-of-production",
+               href:'/economics/basics/scarcity-in-economics',
+               label:'Scarcity in Economics'
               },
               {
-                title: "Supply And Demand",
-                description:
-                  "Explore How Buyers And Sellers Interact In Markets.",
-                href: "/economics/basics/supply-and-demand",
+               href:'/economics/basics/opportunity-cost',
+               label:'Opportunity Cost'
               },
-            ].map((topic) => (
-              <Link
-                key={topic.title}
-                href={topic.href}
-                className="group rounded-xl border border-blue-100 bg-white p-4 transition-colors hover:border-blue-300 hover:bg-blue-50"
-              >
-                <h3 className="mb-2 font-semibold text-blue-900">
-                  {topic.title}
-                  <span className="ml-2 transition-transform group-hover:translate-x-1">
-                    →
-                  </span>
-                </h3>
-                <p className="text-sm leading-6 text-gray-600">
-                  {topic.description}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </section>
+              {
+               href:'/economics/basics/price-elasticity-of-demand',
+               label:'Price Elasticity of Demand'
+              },
+              {
+               href:'/economics/basics/mixed-economy',
+               label:'Mixed Economy'
+              },
+              {
+               href:'/economics/basics/microeconomics-vs-macroeconomics',
+               label:'Micro VS Macro Economics'
+              },
+              {
+               href:'/economics/basics/market-equilibrium',
+               label:'Market Equilibrium'
+              },
+              {
+               href:'/economics/basics/marginal-cost',
+               label:'Marginal Cost'
+              },
+              {
+               href:'/economics/basics/law-of-supply',
+               label:'Law of Supply'
+              },
+              {
+               href:'/economics/basics/law-of-diminishing-marginal-utility',
+               label:'Diminishing Marginal Utility'
+              },
+              {
+               href:'/economics/basics/law-of-demand',
+               label:'Law of Demand'
+              },
+              {
+               href:'/economics/basics/factors-of-production',
+               label:'Production Factors'
+              }
+                     ]} />
 
         <p className="border-t border-gray-200 pt-5 text-sm leading-7 text-gray-500">
           The financial amounts used in the household and clothing
