@@ -3,18 +3,13 @@ import Link from "next/link";
 import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 export const metadata = {
-  title: "IP Address Basics: Types, Examples & How IPs Work",
+  title: "IP Address Basics | Types, Examples & How IPs Work",
   description:
     "Learn IP address basics, IPv4 structure, public and private IP addresses, static and dynamic IPs, loopback, APIPA, and how to find your IP address on Windows.",
   alternates: {
     canonical: "/networking/ip-addressing/ip-address-basics",
   },
-  openGraph: {
-    title: "IP Address Basics: A Beginner's Guide",
-    description:
-      "Understand IP addresses, IPv4, public and private IPs, static and dynamic addressing, and practical networking examples.",
-    type: "article",
-  },
+
 };
 
 const faqs = [
