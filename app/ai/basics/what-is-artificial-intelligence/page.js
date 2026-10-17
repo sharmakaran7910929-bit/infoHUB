@@ -1,5 +1,17 @@
 import AdSlot from '../../../../components/AdSlot'
 import Breadcrumbs from '../../../../components/Breadcrumb'
+
+
+export const metadata = {
+  title: "What Is Artificial Intelligence? A Beginner’s Guide",
+  description:
+    "Learn what artificial intelligence (AI) is, how it works, its types, real-world uses, benefits, and limitations in this beginner-friendly guide.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/ai/basics/what-is-artificial-intelligence",
+  },
+};
+
 const sections = [
   { id: "simple", label: "AI in simple words" },
   { id: "how-it-works", label: "How AI works" },
