@@ -18,6 +18,16 @@ import {
 import RelatedTopics from "../../../components/ContinueReading";
 import AdSlot from "../../../components/AdSlot";
 
+export const metadata = {
+  title: "Wi-Fi and Routers: Setup, Security & Troubleshooting",
+  description:
+    "Learn how Wi-Fi works, understand router settings and frequency bands, secure your wireless network, and troubleshoot slow connections, disconnections, and internet access problems.",
+  alternates: {
+    canonical:
+      "https://www.pricetag.co.in/networking/wifi-and-routers",
+  },
+};
+
 const learningPath = [
   {
     number: "01",
