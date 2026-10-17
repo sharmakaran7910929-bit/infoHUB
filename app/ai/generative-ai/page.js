@@ -2,6 +2,17 @@ import Link from "next/link";
 import Breadcrumbs from "../../../components/Breadcrumb";
 import AdSlot from "../../../components/AdSlot";
 
+
+export const metadata = {
+  title: "Generative AI | How It Works, Types, Uses & Examples",
+  description:
+    "Learn what generative AI is, how it works, and how it creates text, images, audio, video, and code. Explore its types, uses, benefits, and limitations.",
+  alternates: {
+    canonical: "https://www.pricetag.co.in/ai/generative-ai",
+  },
+};
+
+
 const topics = [
   {
     title: "What Is Generative AI?",
