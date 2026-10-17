@@ -6,19 +6,13 @@ const pageUrl =
   "https://pricetag.co.in/networking/network-devices";
 
 export const metadata = {
-  title: "Network Devices: Types, Uses, Examples and Functions",
+  title: "Network Devices | Types, Uses, Examples and Functions",
   description:
-    "Learn about network devices, including routers, switches, hubs, bridges, gateways, modems, access points, firewalls, repeaters, NICs, proxies, and load balancers.",
+    "Learn about Network Devices, including Routers, Switches, Hubs, Bridges, Gateways, Modems, Access points, Firewalls, Repeaters, NICs, proxies, and Load balancers.",
   alternates: {
     canonical: "/networking/network-devices",
   },
-  openGraph: {
-    title: "Network Devices: Types, Uses and Functions",
-    description:
-      "A complete guide to network devices, how they work, their differences, practical uses, and network security.",
-    url: pageUrl,
-    type: "article",
-  },
+
 };
 
 const articleSchema = {
