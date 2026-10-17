@@ -25,20 +25,13 @@ import {
 const pageUrl = "https://pricetag.co.in/networking/network-tools";
 
 export const metadata = {
-  title: "Network Tools: Troubleshooting, Nmap & Wireshark | PriceTag Hub",
+  title: "Network Tools | Troubleshooting, Nmap & Wireshark | PriceTag HUB",
   description:
-    "Learn network troubleshooting, Nmap, Wireshark, ping, traceroute, DNS tools, and practical network diagnostics.",
+    "Learn Network Troubleshooting, Nmap, Wireshark, ping, traceroute, DNS tools, and practical network diagnostics.",
   alternates: {
-    canonical: pageUrl,
+    canonical: '/networking/network-tools',
   },
-  openGraph: {
-    title: "Network Tools: A Practical Guide",
-    description:
-      "Explore network troubleshooting, device discovery, and packet analysis with practical guides for beginners.",
-    url: pageUrl,
-    siteName: "PriceTag Hub",
-    type: "article",
-  },
+  
 };
 
 const topics = [
