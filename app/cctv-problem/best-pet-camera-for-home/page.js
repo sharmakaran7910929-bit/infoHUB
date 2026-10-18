@@ -573,7 +573,7 @@ export default function BestPetCameraForHomePage() {
 
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
           <Link
-            href="/best-indoor-security-camera-for-home"
+            href="/cctv-problem/best-indoor-security-camera-for-home"
             className="group flex items-center justify-between gap-3 rounded-2xl border border-sky-200 bg-sky-50 p-5 transition hover:border-sky-400 hover:shadow-sm"
           >
             <div>
@@ -595,7 +595,7 @@ export default function BestPetCameraForHomePage() {
           </Link>
 
           <Link
-            href="/best-4g-sim-cctv-camera-without-wifi"
+            href="/cctv-problem/best-4g-sim-cctv-camera-without-wifi"
             className="group flex items-center justify-between gap-3 rounded-2xl border border-violet-200 bg-violet-50 p-5 transition hover:border-violet-400 hover:shadow-sm"
           >
             <div>

@@ -23,7 +23,7 @@ import {
   Cloud,
   Zap,
 } from "lucide-react";
-
+import ProductCard from '../../../components/ProductCard'
 const problems = [
   {
     icon: WifiOff,
@@ -267,7 +267,355 @@ export default function Best4gSimCctvCameraPage() {
             </div>
           </div>
         </section>
+        {/* Top 5 Best 4G SIM CCTV Cameras */}
+<section id="top-5-cameras">
+  <div className="mb-8">
+    <p className="text-sm font-semibold uppercase tracking-wider text-indigo-600">
+      Recommended Camera Options
+    </p>
 
+    <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-3xl">
+      Top 5 Best 4G SIM CCTV Cameras for Home and Office
+    </h2>
+
+    <p className="mt-4 max-w-3xl leading-7 text-slate-600">
+      Looking for a security camera that works without Wi-Fi? These five
+      SIM-supported CCTV camera options offer different combinations of
+      remote monitoring, night vision, motion detection, camera rotation,
+      and local recording. Compare their listed features and confirm the
+      latest specifications before buying.
+    </p>
+
+    <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4">
+      <p className="text-sm leading-6 text-amber-950">
+        <strong>Buying Tip:</strong> These products are presented as a
+        comparison list, not an independently tested ranking. Check
+        cellular band compatibility, customer reviews, warranty, included
+        accessories, and data costs before making your decision.
+      </p>
+    </div>
+  </div>
+
+  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {/* Camera 1 */}
+    <article className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+      <div className="relative flex min-h-12 items-center justify-between bg-blue-50 px-4 py-3">
+        <span className="rounded-full bg-blue-700 px-3 py-1 text-xs font-bold text-white">
+          OPTION 01
+        </span>
+        <Signal size={20} className="text-blue-700" />
+      </div>
+
+      <div className="flex flex-1 flex-col p-5">
+        <div className="mb-4 flex min-h-40 items-center justify-center rounded-xl bg-slate-50 p-3">
+          <img
+            src="/4g-camera/4g-sim-camera1.jpg"
+            alt="Maizic Smarthome 5MP 4G SIM CCTV Camera"
+            className="h-40 w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+
+        <h3 className="text-lg font-bold leading-6 text-slate-900">
+          Maizic Smarthome 5MP 4G SIM CCTV Camera
+        </h3>
+
+        <p className="mt-2 text-sm leading-6 text-slate-600">
+          A feature-rich option to consider for outdoor monitoring of a
+          home entrance, shop, or office premises.
+        </p>
+
+        <ul className="mt-4 flex-1 space-y-2 text-sm leading-6 text-slate-700">
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            5MP motorised rotating camera
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Colour night vision advertised up to 10m
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            IP66 weather protection advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Motion detection and two-way audio advertised
+          </li>
+        </ul>
+
+        <a
+          href="https://www.amazon.in/Maizic-Smarthome-Waterproof-Detection-Wireless/dp/B0GYJMNVYZ?crid=2KE83GQLEG9LR&dib=eyJ2IjoiMSJ9.jvD7wlVLUEh9cLqW03JBqa79Uom-5rU76hmamZ01KVr-mZ9Gl_y2mZ5mLW5llOerDITSr-s7iFFqo_wBm-S3ZW5X1M-RVYTrC3lA0ca1eEGOnU9by0pvt2R4TS1xkrf_uVLC-hh3Nbab2eYnma-0kNhrPPyXyjgmrDIOiWJWV74HSmos1ixHhpdDH5ct4D5NVI-nyXz_sbsQ_UfJH12dptQqmAmcz4QkP64Mj7ZtBoI.NUYtwRim7osUREESttsMltKmj77kaaXpF9W5UZCwTK0&dib_tag=se&keywords=4g+sim+cctv+camera+without+wifi&qid=1792335398&sprefix=4G+SIM+CCTV+CAMERA+WITHOT%2Caps%2C282&sr=8-3&linkCode=ll2&tag=pricetaghub-21&linkId=aa49f189fb12b7dd6620c89fedca8f7b&ref_=as_li_ss_tl"
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300"
+        >
+          Check Price on Amazon <ArrowRight size={17} />
+        </a>
+      </div>
+    </article>
+
+    {/* Camera 2 */}
+    <article className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+      <div className="flex items-center justify-between bg-purple-50 px-4 py-3">
+        <span className="rounded-full bg-purple-700 px-3 py-1 text-xs font-bold text-white">
+          OPTION 02
+        </span>
+        <Camera size={20} className="text-purple-700" />
+      </div>
+
+      <div className="flex flex-1 flex-col p-5">
+        <div className="mb-4 flex min-h-40 items-center justify-center rounded-xl bg-slate-50 p-3">
+          <img
+            src="/4g-camera/4g-sim-camera2.jpg"
+            alt="ApnaCam Dual Lens 4G SIM Camera"
+            className="h-40 w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+
+        <h3 className="text-lg font-bold leading-6 text-slate-900">
+          ApnaCam Dual Lens 4G SIM Camera 4MP + 2MP
+        </h3>
+
+        <p className="mt-2 text-sm leading-6 text-slate-600">
+          A dual-lens option to investigate if you want broader monitoring
+          coverage around a home, shop, or office.
+        </p>
+
+        <ul className="mt-4 flex-1 space-y-2 text-sm leading-6 text-slate-700">
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Dual-lens camera design
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            360° horizontal and 120° vertical coverage advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Up to 128GB SD card support advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Motion detection and IP66 protection advertised
+          </li>
+        </ul>
+
+        <a
+          href="https://www.amazon.in/ApnaCam-Security-Detection-Waterproof-Wireless/dp/B0FWRVPBLK?dib=eyJ2IjoiMSJ9.jvD7wlVLUEh9cLqW03JBqa79Uom-5rU76hmamZ01KVr0ZRzIeOSYIKU_PF_tkKoD9LtGqrtl4tKe-tMBLWp66tO59vwOqBmoSiyx-dReckCQmYv6JLUtmA0LscjQepcyPseQw_KDTyn-zhVwaWUCWtdAgpjipzuTtVRC4GkiFCVp3oqi9dxk9ps1YOfiCyeKC_1t0FgYZDUm0suP81yggG5Z9vPfoNEA0F_5vzVZm2g.CO8Ov0gDoSS2UaOwDEU2a00taNma7KRBNkU3ANqIHaU&dib_tag=se&keywords=4g+sim+cctv+camera+without+wifi&qid=1792336501&sr=8-4&linkCode=ll2&tag=pricetaghub-21&linkId=95ec11a217edca0a63bb4bacdc61f796&ref_=as_li_ss_tl"
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300"
+        >
+          Check Price on Amazon <ArrowRight size={17} />
+        </a>
+      </div>
+    </article>
+
+    {/* Camera 3 */}
+    <article className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+      <div className="flex items-center justify-between bg-emerald-50 px-4 py-3">
+        <span className="rounded-full bg-emerald-700 px-3 py-1 text-xs font-bold text-white">
+          OPTION 03
+        </span>
+        <Smartphone size={20} className="text-emerald-700" />
+      </div>
+
+      <div className="flex flex-1 flex-col p-5">
+        <div className="mb-4 flex min-h-40 items-center justify-center rounded-xl bg-slate-50 p-3">
+          <img
+            src="/4g-camera/4g-sim-camera3.jpg"
+            alt="Trueview 3MP 4G Mini PT Security Camera"
+            className="h-40 w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+
+        <h3 className="text-lg font-bold leading-6 text-slate-900">
+          Trueview 3MP 4G Mini PT Security Camera
+        </h3>
+
+        <p className="mt-2 text-sm leading-6 text-slate-600">
+          A compact camera option for users who want remote monitoring
+          and adjustable viewing angles.
+        </p>
+
+        <ul className="mt-4 flex-1 space-y-2 text-sm leading-6 text-slate-700">
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            3MP image sensor advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Pan-and-tilt viewing functionality
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            MicroSD support up to 256GB advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Siren, lights, and night vision advertised
+          </li>
+        </ul>
+
+        <a
+          href="https://www.amazon.in/Trueview-Mini-Tilt-CCTV-Camera/dp/B0B38CMWWB?crid=296E09MNUPOVH&dib=eyJ2IjoiMSJ9.jvD7wlVLUEh9cLqW03JBqa79Uom-5rU76hmamZ01KVr0ZRzIeOSYIKU_PF_tkKoD9LtGqrtl4tKe-tMBLWp66tO59vwOqBmoSiyx-dReckCQmYv6JLUtmA0LscjQepcy_uagBQLB-lfWGM4HKCsKW2xuy_1Qa3zOhBX6rhSjSUitVWT9E8-_vsEVVcc0YpMWT_AwTDffvuWKmfIW7xDw7YldaoTOnND73aYXuCMWqsY.JmTCNxQT0kKldMpxq1cMsQqWAueTyd0JiTKeIuzrq3s&dib_tag=se&keywords=4g%2Bsim%2Bcctv%2Bcamera%2Bwithout%2Bwifi&qid=1792336854&sr=8-2-spons&th=1&linkCode=ll2&tag=pricetaghub-21&linkId=9727c963ac3ed0e278e948823255847d&ref_=as_li_ss_tl"
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300"
+        >
+          Check Price on Amazon <ArrowRight size={17} />
+        </a>
+      </div>
+    </article>
+
+    {/* Camera 4 */}
+    <article className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+      <div className="flex items-center justify-between bg-cyan-50 px-4 py-3">
+        <span className="rounded-full bg-cyan-700 px-3 py-1 text-xs font-bold text-white">
+          OPTION 04
+        </span>
+        <Radio size={20} className="text-cyan-700" />
+      </div>
+
+      <div className="flex flex-1 flex-col p-5">
+        <div className="mb-4 flex min-h-40 items-center justify-center rounded-xl bg-slate-50 p-3">
+          <img
+            src="/4g-camera/4g-sim-camera4.jpg"
+            alt="IFITech 4MP Full HD Smart 4G Dual Lens CCTV Camera"
+            className="h-40 w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+
+        <h3 className="text-lg font-bold leading-6 text-slate-900">
+          IFITech 4MP Full HD Smart 4G Dual Lens CCTV Camera
+        </h3>
+
+        <p className="mt-2 text-sm leading-6 text-slate-600">
+          Consider this option when you need a SIM-connected camera
+          with remote movement and night monitoring features.
+        </p>
+
+        <ul className="mt-4 flex-1 space-y-2 text-sm leading-6 text-slate-700">
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Dual-lens design advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            350° horizontal and 90° vertical rotation advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Infrared and spotlight LEDs advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Motion detection and two-way audio advertised
+          </li>
+        </ul>
+
+        <a
+          href="https://www.amazon.in/IFITech-Full-Smart-Dual-Camera/dp/B0H8J8F445?dib=eyJ2IjoiMSJ9.jvD7wlVLUEh9cLqW03JBqa79Uom-5rU76hmamZ01KVrQp9fWlMoAH2bYAkeP4hhcVJrZaoAP26FHcrlMypr7bqjBBnd3C5wLjB3mVGyZum_qzCClJR8eZ2gT_Vo4BNOnVSVP1Sw0lzv3q28SY_K81tNTw3PzALILMaYM9Z6NuvBMgGJ7WUdr0rKSPNiNM_9c8_d-3MmGXX7QG2I40OLSKRaP5AHQg3dlYthrhIDCD7No.9-4FSk18JW6Sw89QKzYS_KL63S9OAvo70A-MvM7STYU&dib_tag=se&keywords=4g%2Bsim%2Bcctv%2Bcamera%2Bwithout%2Bwifi&qid=1792337403&sr=8-8&th=1&linkCode=ll2&tag=pricetaghub-21&linkId=a3bb7da0fcfa9e76a23c83339963811a&ref_=as_li_ss_tl"
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300"
+        >
+          Check Price on Amazon <ArrowRight size={17} />
+        </a>
+      </div>
+    </article>
+
+    {/* Camera 5 */}
+    <article className="flex min-w-0 flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+      <div className="flex items-center justify-between bg-orange-50 px-4 py-3">
+        <span className="rounded-full bg-orange-700 px-3 py-1 text-xs font-bold text-white">
+          OPTION 05
+        </span>
+        <ShieldCheck size={20} className="text-orange-700" />
+      </div>
+
+      <div className="flex flex-1 flex-col p-5">
+        <div className="mb-4 flex min-h-40 items-center justify-center rounded-xl bg-slate-50 p-3">
+          <img
+            src="/4g-camera/4g-sim-camera5.jpg"
+            alt="Maizic Smarthome 2MP 4G SIM Outdoor CCTV Camera"
+            className="h-40 w-full object-contain"
+            loading="lazy"
+          />
+        </div>
+
+        <h3 className="text-lg font-bold leading-6 text-slate-900">
+          Maizic Smarthome 2MP 4G SIM Outdoor CCTV Camera
+        </h3>
+
+        <p className="mt-2 text-sm leading-6 text-slate-600">
+          Another outdoor camera option to compare for basic property
+          monitoring, depending on its current price and specifications.
+        </p>
+
+        <ul className="mt-4 flex-1 space-y-2 text-sm leading-6 text-slate-700">
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            2MP resolution advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            355° horizontal and 90° vertical rotation advertised
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            Colour night vision advertised up to 10m
+          </li>
+          <li className="flex gap-2">
+            <CheckCircle2 size={17} className="mt-1 shrink-0 text-emerald-600" />
+            IP66 protection and two-way audio advertised
+          </li>
+        </ul>
+
+        <a
+          href="https://www.amazon.in/Maizic-Smarthome-1920x1080P-Waterproof-Detection/dp/B0F676XYL5?crid=28VQ2GDTBL46J&dib=eyJ2IjoiMSJ9.h7g02DPU45ulqweiehkmtD5EB_hQEMkKOrCLwXVVpoDlI96hIvsYqXiTC4sqcg5xoEKTzj1m_xOnFrG8hoqPgdzS2P1xQ9F4p1IKTTfRilDj-J31oaGgpH46Z7YcyOS3YAO1uCpodXOKJ3dp5gDjyVi0GO7_0YodBYbt17k2Lv7MhEX4czL3tzozbZ3_rO8PomDiNkO-4dWV4G7dLZuZ3KxwP5kgl6izD5OfJ-W2k6U.CZjKFGIMU3QF6px3KI-lTaqzpTfQsVCjYejKT4BQ4ss&dib_tag=se&keywords=4g%2Bsim%2Bcctv%2Bcamera%2Bwithout%2Bwifi&qid=1792337780&sr=8-17&th=1&linkCode=ll2&tag=pricetaghub-21&linkId=eefd464710f6efdb1b0c0b59c9f9946e&ref_=as_li_ss_tl"
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          className="mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300"
+        >
+          Check Price on Amazon <ArrowRight size={17} />
+        </a>
+      </div>
+    </article>
+  </div>
+
+  {/* More Cameras on Amazon */}
+  <div className="mt-8 rounded-3xl bg-gradient-to-br from-slate-950 via-blue-950 to-indigo-900 p-6 text-white sm:p-8">
+    <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+      <div className="min-w-0">
+        <h3 className="text-xl font-bold sm:text-2xl">
+          Want to Explore More 4G SIM CCTV Cameras?
+        </h3>
+
+        <p className="mt-3 max-w-2xl text-sm leading-7 text-blue-100">
+          Compare more models, current prices, customer reviews, recording
+          options, and available offers on Amazon India.
+        </p>
+      </div>
+
+      <a
+        href="https://www.amazon.in/s?k=4g+sim+cctv+camera+without+wifi&linkCode=ll2&tag=pricetaghub-21&linkId=d3048c311ded3b44027c464d218e0da6&ref_=as_li_ss_tl"
+        target="_blank"
+        rel="sponsored nofollow noopener noreferrer"
+        className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-xl bg-amber-400 px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300"
+      >
+        See More Cameras on Amazon
+        <ArrowRight size={18} />
+      </a>
+    </div>
+  </div>
+
+</section>
+       
         {/* Buying checklist */}
         <section>
           <div className="mb-6">
@@ -275,7 +623,7 @@ export default function Best4gSimCctvCameraPage() {
               Before you spend money
             </p>
             <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-3xl">
-              6 things to check before buying
+              6 Things To Check Before Buying
             </h2>
             <p className="mt-3 leading-7 text-slate-600">
               A low advertised price does not tell you the total ownership
@@ -401,7 +749,7 @@ export default function Best4gSimCctvCameraPage() {
         {/* Cost breakdown */}
         <section>
           <h2 className="text-2xl font-bold text-slate-950 sm:text-3xl">
-            Calculate the real cost, not just the camera price
+            Calculate the Real Cost, Not Just the Camera Price
           </h2>
           <p className="mt-3 leading-7 text-slate-600">
             Before choosing a model, account for the costs that may arise
@@ -523,7 +871,7 @@ export default function Best4gSimCctvCameraPage() {
 
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <Link
-              href="/best-indoor-security-camera-for-home"
+              href="/cctv-problem/best-indoor-security-camera-for-home"
               className="group rounded-2xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
             >
               <div className="flex items-center justify-between gap-3">
@@ -542,7 +890,7 @@ export default function Best4gSimCctvCameraPage() {
             </Link>
 
             <Link
-              href="/best-pet-camera-for-home"
+              href="/cctv-problem/best-pet-camera-for-home"
               className="group rounded-2xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
             >
               <div className="flex items-center justify-between gap-3">
