@@ -1,6 +1,6 @@
 
 import Breadcrumbs from "../../components/Breadcrumb";
-
+import RelatedTopics from "../../components/ContinueReading";
 export default function EconomicsLayout({ children }) {
   return (
     <div className="min-h-screen w-full bg-slate-50 text-slate-900">
@@ -54,6 +54,8 @@ export default function EconomicsLayout({ children }) {
       <div className="relative w-full">
         {children}
       </div>
+
+     
     </div>
   );
 }

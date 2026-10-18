@@ -1133,59 +1133,6 @@ export default function PriceElasticityOfDemandPage() {
           </div>
         </section>
 
-       {/* Related topics */}
-                    <RelatedTopics 
-                    title='Explore More About Economics'
-                    links={[
-                     {
-                     href:'/economics/basics/what-is-economics',
-                     label:'What is Economics'
-                    },
-                    {
-                     href:'/economics/basics/scarcity-in-economics',
-                     label:'Scarcity in Economics'
-                    },
-                    {
-                     href:'/economics/basics/opportunity-cost',
-                     label:'Opportunity Cost'
-                    },
-                    {
-                     href:'/economics/basics/price-elasticity-of-demand',
-                     label:'Price Elasticity of Demand'
-                    },
-                    {
-                     href:'/economics/basics/mixed-economy',
-                     label:'Mixed Economy'
-                    },
-                    {
-                     href:'/economics/basics/microeconomics-vs-macroeconomics',
-                     label:'Micro VS Macro Economics'
-                    },
-                    {
-                     href:'/economics/basics/market-equilibrium',
-                     label:'Market Equilibrium'
-                    },
-                    {
-                     href:'/economics/basics/marginal-cost',
-                     label:'Marginal Cost'
-                    },
-                    {
-                     href:'/economics/basics/law-of-supply',
-                     label:'Law of Supply'
-                    },
-                    {
-                     href:'/economics/basics/law-of-diminishing-marginal-utility',
-                     label:'Diminishing Marginal Utility'
-                    },
-                    {
-                     href:'/economics/basics/law-of-demand',
-                     label:'Law of Demand'
-                    },
-                    {
-                     href:'/economics/basics/factors-of-production',
-                     label:'Production Factors'
-                    }
-                           ]} />
 
         <p className="text-sm leading-6 text-gray-500">
           Note: Numerical values are illustrative examples for learning.
