@@ -14,7 +14,7 @@ import {
   Lightbulb,
   ArrowUpRight,
 } from "lucide-react";
-
+import Link from "next/link";
 export const metadata = {
   title: "Economics: Concepts, Money, Markets & the Economy | PriceTag HUB",
   description:
@@ -52,163 +52,29 @@ const topics = [
       "What Is Economics?",
       "Scarcity and Opportunity Cost",
       "Needs, Wants, and Resources",
-      "Economic Systems",
+      "Utilities and Equilibrium",
     ],
+    href:'/economics/basics'
   },
-  {
-    title: "Microeconomics",
-    description:
-      "Explore the decisions made by individuals, households, and businesses, and how prices are determined.",
-    icon: ShoppingCart,
-    color: "bg-emerald-50 text-emerald-700",
-    border: "border-emerald-200",
-    items: [
-      "Supply and Demand",
-      "Market Equilibrium",
-      "Consumer Behaviour",
-      "Production and Costs",
-    ],
-  },
-  {
-    title: "Macroeconomics",
-    description:
-      "Learn how the wider economy works through national output, economic growth, inflation, and employment.",
-    icon: ChartNoAxesCombined,
-    color: "bg-violet-50 text-violet-700",
-    border: "border-violet-200",
-    items: [
-      "GDP Explained",
-      "Economic Growth",
-      "Inflation and Deflation",
-      "Unemployment",
-    ],
-  },
-  {
-    title: "Money and Banking",
-    description:
-      "Discover how money circulates, banks operate, interest rates work, and central banks influence the economy.",
-    icon: Landmark,
-    color: "bg-amber-50 text-amber-800",
-    border: "border-amber-200",
-    items: [
-      "Functions of Money",
-      "How Banks Work",
-      "Interest Rates",
-      "Central Banks and Monetary Policy",
-    ],
-  },
-  {
-    title: "Personal Finance and Economics",
-    description:
-      "Connect economic principles to everyday financial decisions, saving, borrowing, prices, and purchasing power.",
-    icon: Wallet,
-    color: "bg-pink-50 text-pink-700",
-    border: "border-pink-200",
-    items: [
-      "Saving and Spending",
-      "Simple and Compound Interest",
-      "Purchasing Power",
-      "Inflation and Household Budgets",
-    ],
-  },
-  {
-    title: "Indian Economy",
-    description:
-      "Explore India's economic structure, public finances, major sectors, development, and important economic indicators.",
-    icon: BadgeIndianRupee,
-    color: "bg-orange-50 text-orange-700",
-    border: "border-orange-200",
-    items: [
-      "Overview of the Indian Economy",
-      "Agriculture, Industry, and Services",
-      "Government Budget Basics",
-      "Economic Development",
-    ],
-  },
-  {
-    title: "International Economics",
-    description:
-      "Understand how countries exchange goods, services, and money, and why international economic relationships matter.",
-    icon: Globe2,
-    color: "bg-cyan-50 text-cyan-700",
-    border: "border-cyan-200",
-    items: [
-      "Imports and Exports",
-      "Exchange Rates",
-      "Balance of Payments",
-      "Globalisation and Trade",
-    ],
-  },
-  {
-    title: "Business and Industry",
-    description:
-      "Learn how companies make production decisions, compete in markets, manage costs, and respond to economic changes.",
-    icon: Factory,
-    color: "bg-indigo-50 text-indigo-700",
-    border: "border-indigo-200",
-    items: [
-      "Types of Markets",
-      "Competition and Monopoly",
-      "Business Costs and Revenue",
-      "Productivity and Efficiency",
-    ],
-  },
-  {
-    title: "Government and Public Economics",
-    description:
-      "Explore the role of government in taxation, public spending, public services, and addressing market failures.",
-    icon: Scale,
-    color: "bg-rose-50 text-rose-700",
-    border: "border-rose-200",
-    items: [
-      "Taxes Explained",
-      "Government Spending",
-      "Public Goods",
-      "Market Failure",
-    ],
-  },
-  {
-    title: "Jobs, Wages, and Employment",
-    description:
-      "Understand labour markets, wages, skills, productivity, and the economic factors that influence employment.",
-    icon: BriefcaseBusiness,
-    color: "bg-teal-50 text-teal-700",
-    border: "border-teal-200",
-    items: [
-      "How Labour Markets Work",
-      "Wages and Productivity",
-      "Unemployment Types",
-      "Skills and Economic Opportunity",
-    ],
-  },
-  {
-    title: "Economic Indicators",
-    description:
-      "Learn how economists use data to understand economic conditions and track changes over time.",
-    icon: TrendingUp,
-    color: "bg-lime-50 text-lime-800",
-    border: "border-lime-200",
-    items: [
-      "GDP Growth Rate",
-      "Consumer Price Index",
-      "Employment Indicators",
-      "Trade and Industrial Data",
-    ],
-  },
-  {
-    title: "Economic Ideas and Theories",
-    description:
-      "Explore influential economic ideas and the different ways economists explain markets, growth, and public policy.",
-    icon: Lightbulb,
-    color: "bg-fuchsia-50 text-fuchsia-700",
-    border: "border-fuchsia-200",
-    items: [
-      "Classical Economics",
-      "Keynesian Economics",
-      "Free Markets and Government Intervention",
-      "Economic Schools of Thought",
-    ],
-  },
+ {
+  title: "GDP And Economic Growth",
+  description:
+    "Learn what GDP measures, how India's economy is evaluated, how inflation affects GDP, and what drives economic growth and business cycles.",
+  icon: TrendingUp,
+  color: "bg-emerald-50 text-emerald-700",
+  border: "border-emerald-200",
+  items: [
+    "What Is GDP?",
+    "GDP Of India",
+    "GDP Per Capita",
+    "GDP Vs GNP",
+    "Real Vs Nominal GDP",
+    "Economic Growth",
+    "Business Cycle",
+  ],
+  href:'/economics/gdp-and-economic-growth'
+},
+  
 ];
 
 const learningSteps = [
@@ -278,15 +144,18 @@ function TopicCard({ topic }) {
       </div>
 
       <div className="mt-auto pt-5">
-        <div className="flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors group-hover:text-gray-900">
-          Explore this topic
-          <ArrowUpRight
-            size={16}
-            aria-hidden="true"
-            className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-          />
-        </div>
-      </div>
+  <Link
+    href={topic.href}
+    className="flex items-center gap-1 text-sm font-medium text-gray-500 transition-colors group-hover:text-gray-900"
+  >
+    Explore this topic
+    <ArrowUpRight
+      size={16}
+      aria-hidden="true"
+      className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+    />
+  </Link>
+</div>
     </article>
   );
 }
@@ -503,7 +372,7 @@ export default function EconomicsPage() {
           </p>
 
           <h2 className="mt-3 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-            How to learn economics step by step
+            How to Understand Economics Step by Step
           </h2>
 
           <p className="mt-4 leading-7 text-gray-600">
@@ -555,7 +424,7 @@ export default function EconomicsPage() {
               </p>
 
               <h2 className="mt-3 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                Five concepts worth understanding first
+                Five Concepts Worth Understanding First
               </h2>
 
               <p className="mt-4 leading-7 text-gray-600">
