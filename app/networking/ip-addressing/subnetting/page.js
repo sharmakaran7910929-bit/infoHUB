@@ -4,9 +4,9 @@ import RelatedTopics from "../../../../components/ContinueReading";
 import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
-  title: "Subnetting Explained | Subnet Masks, CIDR & Examples",
+  title: "IP Subnetting Explained | Examples, Subnet Masks & More",
   description:
-    "Learn IPv4 Subnetting from the Basics. Understand Subnet Masks, CIDR notation, Network Addresses, Broadcast Addresses, Usable hosts, and Step-by-step Subnetting examples.",
+    "Learn IP subnetting with simple examples, subnet masks, network and host portions, subnet ranges, and step-by-step calculations for beginners.",
   alternates: {
     canonical: "/networking/ip-addressing/subnetting",
   },

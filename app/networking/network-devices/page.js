@@ -6,10 +6,10 @@ const pageUrl =
   "https://pricetag.co.in/networking/network-devices";
 
 export const metadata = {
-  title: "Network Devices | Types, Uses, Examples and Functions",
+  title: "Network Devices | 12 Types, Examples & Their Uses",
   description:
-    "Learn about Network Devices, including Routers, Switches, Hubs, Bridges, Gateways, Modems, Access points, Firewalls, Repeaters, NICs, proxies, and Load balancers.",
-  alternates: {
+'Explore common network devices with examples, functions, and uses. Learn how routers, switches, modems, access points, and other devices work.'
+  ,alternates: {
     canonical: "/networking/network-devices",
   },
 
