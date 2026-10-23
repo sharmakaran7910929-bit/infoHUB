@@ -54,7 +54,7 @@ const cameras = [
     ],
     limitation:
       "Confirm the dual-view layout, actual night performance and cloud storage terms. Pet-specific detection is not established by the supplied listing.",
-    link: "#product-1",
+    link: "https://www.amazon.in/dp/B0G6LNHM1K?psc=1&pf_rd_p=cebd979a-4e06-4bc9-ba7d-b9887a34ed18&pf_rd_r=2TGZZXE53YJEEP7M9CK2&pd_rd_wg=5uPeE&pd_rd_w=Gv6Wn&content-id=amzn1.sym.cebd979a-4e06-4bc9-ba7d-b9887a34ed18&pd_rd_r=77b78389-1081-4393-90d3-baaadd085173&aref=KmiZpwOPbA&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&linkCode=ll2&tag=pricetaghub-21&linkId=f6ad26b026bce40328a98d3f5485b650&ref_=as_li_ss_tl",
   },
   {
     id: 2,
@@ -79,7 +79,7 @@ const cameras = [
     ],
     limitation:
       "Human detection does not necessarily detect pets. Confirm the exact model's storage limit, app requirements and smart-home compatibility.",
-    link: "#product-2",
+    link: "https://www.amazon.in/CP-PLUS-Detection-CP-E25Q-Pack/dp/B0FNRQ2CJZ?pd_rd_w=gZp2H&content-id=amzn1.sym.7ccbe032-5929-4c88-ab39-4923842061df&pf_rd_p=7ccbe032-5929-4c88-ab39-4923842061df&pf_rd_r=68XZ6BSARYSHJ9T301QJ&pd_rd_wg=l4RzC&pd_rd_r=4caf1ad2-5951-4795-9964-5aadc388443b&pd_rd_i=B0FNRQ2CJZ&psc=1&linkCode=ll2&tag=pricetaghub-21&linkId=20c297d4f0aec9c400b5b763d037a226&ref_=as_li_ss_tl",
   },
   {
     id: 3,
@@ -104,7 +104,7 @@ const cameras = [
     ],
     limitation:
       "Human tracking may not follow a dog or cat. Verify Wi-Fi requirements, cloud terms and pet-specific tracking before buying.",
-    link: "#product-3",
+    link: "https://www.amazon.in/Trueview-Pan-Tilt-Security-Intruder-Surveillance/dp/B0BM9K7ZKF?pd_rd_w=oWWT2&content-id=amzn1.sym.7ccbe032-5929-4c88-ab39-4923842061df&pf_rd_p=7ccbe032-5929-4c88-ab39-4923842061df&pf_rd_r=8G0BX679TW6W09GNW8FA&pd_rd_wg=eLv73&pd_rd_r=5b7eb1d4-bd05-4b83-97fb-9f22556814ea&pd_rd_i=B0BM9K7ZKF&psc=1&linkCode=ll2&tag=pricetaghub-21&linkId=e3f9079a197cb08af67160d6e621efd0&ref_=as_li_ss_tl",
   },
   {
     id: 4,
@@ -129,7 +129,7 @@ const cameras = [
     ],
     limitation:
       "Check app features, recording settings and alert options. Human detection is not the same as pet detection.",
-    link: "#product-4",
+    link: "https://www.amazon.in/Godrej-Camera-Tracking-Detection-Support/dp/B0GXYYQJ2M?crid=1KCN3VD15IYU0&dib=eyJ2IjoiMSJ9.OUp09R-TPS40KgS5OTLPfXIF8yRwciRDLucsVArRi6hFZAGsOaRXMxhMs-I299G1juA5EFEiRbNi7NRtMdSmhafrMjWU4xmbZSudfDuMMvDMIWL9g8abx5WypxQygexxPPg6nLM_QisOnwD92GTOhpTeuBjZv-lfGQTIcKUiOh8G6oEufTTQYDccN7NqEbxeJVHc5NiGHVNpf-y68MIyVUd0GDmxNaXNm54rgtJ21IY.qnl_f6uqIWaHy56YOJrCnsHy6VWfOA0q1KUfvRXKGwo&dib_tag=se&keywords=BEST+CCTV+CAMERA+FOR+dog&qid=1792729921&sprefix=best+cctv+camera+for+do%2Caps%2C298&sr=8-9-spons&aref=1swLXTm0Pt&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1&linkCode=ll2&tag=pricetaghub-21&linkId=3e2fee79589a7b4d788271657a638290&ref_=as_li_ss_tl",
   },
   {
     id: 5,
@@ -154,7 +154,7 @@ const cameras = [
     ],
     limitation:
       "The listing advertises around four hours of continuous battery recording. Verify audio, night vision, power arrangements and app functionality.",
-    link: "#product-5",
+    link: "https://www.amazon.in/GARYVIZ-Security-Magnetic-Wireless-Maagneen/dp/B0HHB522HL?crid=1AGPUPUH64PZG&dib=eyJ2IjoiMSJ9.e8b-MmvbtnfCWMERE5oeMekP6mCwJuxLwpnmWLhO5C7mITA--3CQzAqk5S91hcqnfPJGsz1h4HzYtyGuL44yGIDtASEmwZ2l-wHaKBF6-p1TuJag_BeA2-paC5lM7d68qukkbRVnA6gzYhRM1PQJHLTFet2sLX9A2lZTWkg99PrOQpEVycd8no_QsKeb6S5LLs9siHbj8OENFi5_UO_D2FLUMq2Za4rT0SjbPCW3S2I.kOTPLibzyN2yZ1931ND1nNhTCi5d5z3KqNT7ECRRXbk&dib_tag=se&keywords=BEST+CCTV+CAMERA+FOR+PET&qid=1792729659&sprefix=best+cctv+camera+for+pet%2Caps%2C281&sr=8-17&linkCode=ll2&tag=pricetaghub-21&linkId=2f3209ce82da7da933f2fc360b5167d9&ref_=as_li_ss_tl",
   },
 ];
 
