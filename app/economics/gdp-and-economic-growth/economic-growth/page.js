@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import AdSlot from '../../../../components/AdSlot'
 import {
   ArrowDown,
   ArrowRight,
@@ -390,7 +391,7 @@ export default function EconomicGrowthPage() {
           </div>
         </div>
       </section>
-
+<AdSlot />
       {/* Formula */}
       <section
         id="growth-formula"
@@ -601,89 +602,172 @@ export default function EconomicGrowthPage() {
           })}
         </div>
       </section>
+<AdSlot />
+{/* Total GDP versus GDP per capita */}
+<section className="border-y border-blue-100 bg-gradient-to-b from-blue-50/80 via-white to-blue-50/60">
+  <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
+    <SectionHeading
+      eyebrow="An Important Distinction"
+      title="Total Economic Growth Vs Growth Per Person"
+      description="A country can produce more goods and services overall, but that does not necessarily mean production per person increases by the same amount."
+    />
 
-      {/* Total GDP versus per capita */}
-      <section className="border-y border-blue-100 bg-gradient-to-b from-blue-50/80 via-white to-blue-50/60">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
-          <SectionHeading
-            eyebrow="An Important Distinction"
-            title="Total Economic Growth Vs Growth Per Person"
-            description="A country can produce more overall while its population also grows. That is why total GDP and GDP per capita answer different questions."
-          />
+    <div className="grid gap-5 md:grid-cols-2">
+      {/* Total GDP */}
+      <article className="rounded-2xl border border-blue-200 bg-white p-5 shadow-sm sm:p-6">
+        <div className="mb-4 inline-flex rounded-xl bg-blue-100 p-3 text-blue-800">
+          <Globe2 size={25} />
+        </div>
 
-          <div className="grid gap-5 md:grid-cols-2">
-            <article className="rounded-2xl border border-blue-200 bg-white p-5 shadow-sm sm:p-6">
-              <div className="mb-4 inline-flex rounded-xl bg-blue-100 p-3 text-blue-800">
-                <Globe2 size={25} />
-              </div>
-              <h3 className="text-xl font-bold text-blue-950">
-                Total Real GDP Growth
-              </h3>
-              <p className="mt-3 leading-7 text-slate-600">
-                Measures the change in the total inflation-adjusted value of
-                production in an economy.
-              </p>
-              <div className="mt-4 rounded-xl bg-blue-50 p-4">
-                <p className="text-sm text-slate-600">Illustrative Example</p>
-                <p className="mt-1 text-2xl font-bold text-blue-900">+5%</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Total real GDP increases by 5%.
-                </p>
-              </div>
-            </article>
+        <h3 className="text-xl font-bold text-blue-950">
+          Total Real GDP Growth
+        </h3>
 
-            <article className="rounded-2xl border border-sky-200 bg-white p-5 shadow-sm sm:p-6">
-              <div className="mb-4 inline-flex rounded-xl bg-sky-100 p-3 text-sky-800">
-                <Users size={25} />
-              </div>
-              <h3 className="text-xl font-bold text-blue-950">
-                Real GDP Per Capita Growth
-              </h3>
-              <p className="mt-3 leading-7 text-slate-600">
-                Measures the change in real GDP per person, using real GDP
-                divided by population.
-              </p>
-              <div className="mt-4 rounded-xl bg-sky-50 p-4">
-                <p className="text-sm text-slate-600">
-                  If Population Grows By 2%
-                </p>
-                <p className="mt-1 text-2xl font-bold text-blue-900">
-                  ≈ 2.94%
-                </p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Approximate real GDP per capita growth in this example.
-                </p>
-              </div>
-            </article>
+        <p className="mt-3 leading-7 text-slate-600">
+          Measures how much the total inflation-adjusted value of goods and
+          services produced in a country increases.
+        </p>
+
+        <div className="mt-4 rounded-xl bg-blue-50 p-4">
+          <p className="text-sm text-slate-600">
+            Example: A Country's Production
+          </p>
+
+          <div className="mt-3 space-y-2 text-blue-950">
+            <p>Last Year: ₹10,00,000 crore</p>
+            <p>This Year: ₹10,50,000 crore</p>
           </div>
 
-          <div className="mt-5 rounded-2xl border border-blue-200 bg-white p-5 sm:p-6">
-            <h3 className="font-bold text-blue-950">
-              How Is The 2.94% Result Calculated?
-            </h3>
-            <p className="mt-3 leading-7 text-slate-700">
-              Suppose real GDP rises from an index of 100 to 105 while
-              population rises from an index of 100 to 102. Real GDP per capita
-              changes from 100 ÷ 100 to 105 ÷ 102.
+          <div className="mt-3 border-t border-blue-200 pt-3">
+            <p className="text-sm text-slate-600">
+              Increase in Total GDP
             </p>
-            <div className="mt-4 overflow-x-auto rounded-xl bg-gradient-to-r from-blue-50 to-sky-50 p-4">
-              <p className="min-w-max font-bold text-blue-900">
-                ((1.05 ÷ 1.02) − 1) × 100 ≈ 2.94%
-              </p>
-            </div>
-            <p className="mt-3 text-sm leading-6 text-slate-600">
-              These are illustrative growth rates. GDP per capita is an
-              average, not a measure of how income is distributed among people.
+            <p className="mt-1 text-2xl font-bold text-blue-900">
+              ₹50,000 crore
             </p>
-            <Link
-              href="/economics/gdp-and-economic-growth/gdp-per-capita"
-              className="mt-4 inline-flex items-center gap-2 font-bold text-blue-700 hover:text-blue-900"
-            >
-              Learn About GDP Per Capita <ArrowRight size={16} />
-            </Link>
           </div>
         </div>
-      </section>
+      </article>
+
+      {/* GDP per capita */}
+      <article className="rounded-2xl border border-sky-200 bg-white p-5 shadow-sm sm:p-6">
+        <div className="mb-4 inline-flex rounded-xl bg-sky-100 p-3 text-sky-800">
+          <Users size={25} />
+        </div>
+
+        <h3 className="text-xl font-bold text-blue-950">
+          Real GDP Per Capita Growth
+        </h3>
+
+        <p className="mt-3 leading-7 text-slate-600">
+          Measures the average amount of real GDP per person. Calculate it
+          by dividing total real GDP by the total population.
+        </p>
+
+        <div className="mt-4 rounded-xl bg-sky-50 p-4">
+          <p className="text-sm text-slate-600">
+            Example: A Country With 1,000 People
+          </p>
+
+          <div className="mt-3 space-y-2 text-blue-950">
+            <p>Total GDP: ₹10,00,000</p>
+            <p>Total Population: 1,000 people</p>
+          </div>
+
+          <div className="mt-3 rounded-lg border border-sky-200 bg-white p-3">
+            <p className="text-sm text-slate-600">
+              GDP Per Capita
+            </p>
+            <p className="mt-1 font-bold text-blue-900">
+              ₹10,00,000 ÷ 1,000
+            </p>
+            <p className="mt-1 text-2xl font-bold text-blue-900">
+              ₹1,000 per person
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    {/* Simple calculation */}
+    <div className="mt-5 rounded-2xl border border-blue-200 bg-white p-5 sm:p-6">
+      <h3 className="text-lg font-bold text-blue-950">
+        How Does Population Growth Affect GDP Per Capita?
+      </h3>
+
+      <p className="mt-3 leading-7 text-slate-700">
+        Suppose a country's real GDP increases from ₹10,00,000 to ₹10,50,000,
+        while its population increases from 1,000 to 1,020 people.
+      </p>
+
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <div className="rounded-xl bg-blue-50 p-4">
+          <p className="font-bold text-blue-950">
+            Before
+          </p>
+          <p className="mt-2 text-slate-700">
+            GDP: ₹10,00,000
+          </p>
+          <p className="text-slate-700">
+            Population: 1,000
+          </p>
+          <div className="mt-3 border-t border-blue-200 pt-3">
+            <p className="font-bold text-blue-900">
+              ₹10,00,000 ÷ 1,000
+            </p>
+            <p className="mt-1 text-xl font-bold text-blue-900">
+              ₹1,000 per person
+            </p>
+          </div>
+        </div>
+
+        <div className="rounded-xl bg-sky-50 p-4">
+          <p className="font-bold text-blue-950">
+            After
+          </p>
+          <p className="mt-2 text-slate-700">
+            GDP: ₹10,50,000
+          </p>
+          <p className="text-slate-700">
+            Population: 1,020
+          </p>
+          <div className="mt-3 border-t border-sky-200 pt-3">
+            <p className="font-bold text-blue-900">
+              ₹10,50,000 ÷ 1,020
+            </p>
+            <p className="mt-1 text-xl font-bold text-blue-900">
+              ₹1,029.41 per person
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-4 rounded-xl border border-blue-200 bg-gradient-to-r from-blue-50 to-sky-50 p-4">
+        <p className="font-bold text-blue-950">
+          What Do These Numbers Tell Us?
+        </p>
+        <p className="mt-2 leading-7 text-slate-700">
+          Total GDP increased by ₹50,000, but GDP per capita increased from
+          ₹1,000 to ₹1,029.41, a rise of ₹29.41 per person. Population also
+          increased, so GDP per capita grew less than total GDP.
+        </p>
+      </div>
+
+      <p className="mt-3 text-sm leading-6 text-slate-600">
+        These figures are illustrative. GDP per capita is an average of
+        economic production per person, not the actual income received by
+        every person. Real GDP figures are used to account for inflation.
+      </p>
+
+      <Link
+        href="/economics/gdp-and-economic-growth/gdp-per-capita"
+        className="mt-4 inline-flex items-center gap-2 font-bold text-blue-700 hover:text-blue-900"
+      >
+        Learn About GDP Per Capita <ArrowRight size={16} />
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* Benefits */}
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
@@ -714,7 +798,7 @@ export default function EconomicGrowthPage() {
           })}
         </div>
       </section>
-
+<AdSlot />
       {/* Limitations */}
       <section className="border-y border-blue-100 bg-gradient-to-br from-blue-50 via-white to-sky-50">
         <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 sm:py-16">

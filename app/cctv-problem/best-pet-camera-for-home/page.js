@@ -11,7 +11,6 @@ import {
   Moon,
   ShieldCheck,
   Smartphone,
-  Video,
 } from "lucide-react";
 
 export const metadata = {
@@ -35,7 +34,7 @@ const cameras = [
     id: 1,
     brand: "Grousale",
     name: "4MP Dual-Lens Indoor Wi-Fi Camera",
-    label: "Dual-angle monitoring",
+    label: "Dual-Angle Monitoring",
     image: "/pet-camera/pet-camera-1.jpg",
     alt: "Grousale 4MP dual-lens indoor Wi-Fi camera for monitoring animals at home",
     resolution: "4MP dual lenses",
@@ -44,8 +43,7 @@ const cameras = [
     movement: "360° PTZ advertised",
     storage: "Up to 128GB microSD and cloud support",
     connection: "Wi-Fi",
-    bestFor:
-      "Checking a larger room from two viewing angles.",
+    bestFor: "Checking a larger room from two viewing angles.",
     features: [
       "Two lenses provide simultaneous views from different angles.",
       "Colour night vision helps view activity in low-light conditions.",
@@ -60,7 +58,7 @@ const cameras = [
     id: 2,
     brand: "CP PLUS",
     name: "Ezykam 2MP Wi-Fi Camera — Pack of 2",
-    label: "Monitor two locations",
+    label: "Monitor Two Locations",
     image: "/pet-camera/pet-camera-2.jpg",
     alt: "CP PLUS Ezykam indoor Wi-Fi cameras two-pack for checking pets in different rooms",
     resolution: "2MP Full HD 1080p",
@@ -69,8 +67,7 @@ const cameras = [
     movement: "355° pan and 59° tilt advertised",
     storage: "Cloud and microSD support; listing mentions up to 256GB",
     connection: "Wi-Fi",
-    bestFor:
-      "Checking on animals in separate rooms with a two-camera setup.",
+    bestFor: "Checking on animals in separate rooms with a two-camera setup.",
     features: [
       "Two cameras can help cover different rooms or viewing angles.",
       "Remote live viewing and two-way talk are advertised.",
@@ -85,7 +82,7 @@ const cameras = [
     id: 3,
     brand: "Trueview",
     name: "3MP Mini Pan-Tilt Wi-Fi Camera",
-    label: "Adjustable viewing",
+    label: "Adjustable Viewing",
     image: "/pet-camera/pet-camera-3.jpg",
     alt: "Trueview 3MP mini pan-tilt Wi-Fi camera with colour night vision for pet monitoring",
     resolution: "3MP",
@@ -94,8 +91,7 @@ const cameras = [
     movement: "360° pan-tilt monitoring advertised",
     storage: "Up to 256GB microSD and cloud support",
     connection: "Wi-Fi; verify the exact model's requirements",
-    bestFor:
-      "Watching different parts of a room using remote camera movement.",
+    bestFor: "Watching different parts of a room using remote camera movement.",
     features: [
       "Adjust the camera's viewing direction using a compatible app.",
       "Human detection, movement tracking and instant alerts are advertised.",
@@ -110,7 +106,7 @@ const cameras = [
     id: 4,
     brand: "Godrej Security Solutions",
     name: "EVE Pro 3 Smart Wi-Fi Camera",
-    label: "Local storage option",
+    label: "Local Storage Option",
     image: "/pet-camera/pet-camera-4.jpg",
     alt: "Godrej EVE Pro 3 3MP indoor Wi-Fi camera for remotely monitoring pets at home",
     resolution: "3MP",
@@ -119,8 +115,7 @@ const cameras = [
     movement: "360° view and human tracking advertised",
     storage: "Up to 256GB microSD",
     connection: "Wi-Fi; Godrej Secure Hub app",
-    bestFor:
-      "Owners who want indoor monitoring and local memory-card recording.",
+    bestFor: "Owners who want indoor monitoring and local memory-card recording.",
     features: [
       "Remote live viewing through the compatible mobile app.",
       "Two-way talk for listening and speaking through the camera.",
@@ -135,7 +130,7 @@ const cameras = [
     id: 5,
     brand: "GARYVIZ",
     name: "Mini Magnetic Wi-Fi Camera",
-    label: "Compact monitoring",
+    label: "Compact Monitoring",
     image: "/pet-camera/pet-camera-5.jpg",
     alt: "GARYVIZ compact magnetic 1080p Wi-Fi camera for monitoring an indoor pet area",
     resolution: "1080p Full HD advertised",
@@ -144,8 +139,7 @@ const cameras = [
     movement: "Fixed 81° viewing angle advertised",
     storage: "Up to 128GB microSD",
     connection: "2.4GHz Wi-Fi; local recording advertised",
-    bestFor:
-      "Monitoring a small, specific area where a compact camera is useful.",
+    bestFor: "Monitoring a small, specific area where a compact camera is useful.",
     features: [
       "Small design with a built-in magnet.",
       "Flexible semi-rigid USB cable helps position the camera.",
@@ -154,59 +148,77 @@ const cameras = [
     ],
     limitation:
       "The listing advertises around four hours of continuous battery recording. Verify audio, night vision, power arrangements and app functionality.",
-    link: "https://www.amazon.in/GARYVIZ-Security-Magnetic-Wireless-Maagneen/dp/B0HHB522HL?crid=1AGPUPUH64PZG&dib=eyJ2IjoiMSJ9.e8b-MmvbtnfCWMERE5oeMekP6mCwJuxLwpnmWLhO5C7mITA--3CQzAqk5S91hcqnfPJGsz1h4HzYtyGuL44yGIDtASEmwZ2l-wHaKBF6-p1TuJag_BeA2-paC5lM7d68qukkbRVnA6gzYhRM1PQJHLTFet2sLX9A2lZTWkg99PrOQpEVycd8no_QsKeb6S5LLs9siHbj8OENFi5_UO_D2FLUMq2Za4rT0SjbPCW3S2I.kOTPLibzyN2yZ1931ND1nNhTCi5d5z3KqNT7ECRRXbk&dib_tag=se&keywords=BEST+CCTV+CAMERA+FOR+PET&qid=1792729659&sprefix=best+cctv+camera+for+pet%2Caps%2C281&sr=8-17&linkCode=ll2&tag=pricetaghub-21&linkId=2f3209ce82da7da933f2fc360b5167d9&ref_=as_li_ss_tl",
+    link: "https://www.amazon.in/GARYVIZ-Security-Magnetic-Wireless-Maagneen/dp/B0HHB522HL?crid=1AGPUPUH64PZG&dib=eyJ2IjoiMSJ9.e8b-MmvbtnfCWMERE5oeMekP6mCwJuxLwpnmWLhO5C7mITA--3CQzAqk5S91hcqnfPJGsz1h4HzYtyGuL44yGIDtASEmwZ2l-wHaKBF6-p1TuJag_BeA2-paC5lM7d68qukkbRVnA6gzYhRM1PQJHLTFet2sLX9A2lZTWkg99PrOQpEVycd8no_QsKeb6S5LLs9siHbj8OENFi5_UO_D2FLUMq2Za4rT0SjbPCW3S2I.kOTPLibzyN2yZ1931ND1nNhCi5d5z3KqNT7ECRRXbk&dib_tag=se&keywords=BEST+CCTV+CAMERA+FOR+PET&qid=1792729659&sprefix=best+cctv+camera+for+pet%2Caps%2C281&sr=8-17&linkCode=ll2&tag=pricetaghub-21&linkId=2f3209ce82da7da933f2fc360b5167d9&ref_=as_li_ss_tl",
   },
 ];
 
 const buyingChecks = [
   {
     icon: Smartphone,
-    title: "Want to check your pet from work?",
+    title: "Want to Check Your Pet From Work?",
     description:
       "Look for remote live viewing through a compatible phone app and a reliable home internet connection.",
   },
   {
     icon: MessageCircle,
-    title: "Want to hear or talk to your pet?",
+    title: "Want to Hear or Talk to Your Pet?",
     description:
       "Choose a camera with a built-in microphone and speaker if two-way audio is important to you.",
   },
   {
     icon: Moon,
-    title: "Is your pet active at night?",
+    title: "Is Your Pet Active at Night?",
     description:
       "Compare infrared and colour night vision according to the lighting in your home.",
   },
   {
     icon: BellRing,
-    title: "Want alerts when your pet moves?",
+    title: "Want Alerts When Your Pet Moves?",
     description:
       "Check which motion alerts are available. Human detection may not recognise animals reliably.",
   },
   {
     icon: Eye,
-    title: "Need to see the whole room?",
+    title: "Need to See the Whole Room?",
     description:
       "Pan-tilt cameras and dual-lens models offer different coverage from fixed-angle cameras.",
   },
   {
     icon: ShieldCheck,
-    title: "Want to save recordings privately?",
+    title: "Want to Save Recordings Privately?",
     description:
       "Check memory-card limits, cloud charges, account security and recording controls before buying.",
   },
 ];
 
+function SectionIntro({ eyebrow, title, description }) {
+  return (
+    <div className="mx-auto max-w-3xl text-center">
+      <p className="text-sm font-bold uppercase tracking-wider text-blue-600">
+        {eyebrow}
+      </p>
+      <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight text-slate-950 sm:text-4xl">
+        {title}
+      </h2>
+      {description && (
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
+          {description}
+        </p>
+      )}
+    </div>
+  );
+}
+
 function ProductImage({ camera }) {
   return (
-    <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-slate-100">
+    <div className="relative flex aspect-[4/3] w-full items-center justify-center overflow-hidden rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-slate-100">
       <img
         src={camera.image}
         alt={camera.alt}
         loading="lazy"
-        className="h-full w-full object-contain p-3"
+        className="h-full w-full object-contain p-4"
       />
-      <span className="absolute bottom-3 left-3 rounded-full border border-slate-200 bg-white/95 px-3 py-1 text-xs font-bold text-slate-600">
+      <span className="absolute bottom-3 left-3 rounded-full border border-slate-200 bg-white/95 px-3 py-1 text-xs font-bold text-slate-600 shadow-sm">
         Camera {camera.id}
       </span>
     </div>
@@ -215,7 +227,7 @@ function ProductImage({ camera }) {
 
 function Feature({ children }) {
   return (
-    <li className="flex items-start gap-2 text-sm leading-6 text-slate-700">
+    <li className="flex items-start gap-2.5 text-sm leading-6 text-slate-700">
       <CheckCircle2
         size={17}
         className="mt-1 shrink-0 text-blue-600"
@@ -226,10 +238,124 @@ function Feature({ children }) {
   );
 }
 
+function CameraCard({ camera }) {
+  const specifications = [
+    ["Resolution", camera.resolution],
+    ["Night Vision", camera.vision],
+    ["Audio", camera.audio],
+    ["Viewing Movement", camera.movement],
+    ["Recording Storage", camera.storage],
+    ["Connectivity", camera.connection],
+  ];
+
+  return (
+    <article
+      id={`product-${camera.id}`}
+      className="flex h-full scroll-mt-6 flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/5"
+    >
+      <div className="flex flex-1 flex-col p-5 sm:p-7">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <span className="rounded-full bg-blue-50 px-3 py-1.5 text-xs font-bold uppercase tracking-wide text-blue-700">
+            Option {camera.id}
+          </span>
+          <span className="rounded-full border border-slate-200 px-3 py-1.5 text-xs font-bold text-slate-600">
+            {camera.label}
+          </span>
+        </div>
+
+        <div className="mt-5 grid items-start gap-5 sm:grid-cols-2">
+          <ProductImage camera={camera} />
+
+          <div className="min-w-0">
+            <p className="text-sm font-bold text-blue-600">{camera.brand}</p>
+            <h3 className="mt-2 text-xl font-bold leading-snug tracking-tight text-slate-950 sm:text-2xl">
+              {camera.name}
+            </h3>
+            <p className="mt-3 text-sm leading-7 text-slate-600">
+              {camera.bestFor}
+            </p>
+
+            <a
+              href={camera.link}
+              target="_blank"
+              rel="sponsored nofollow noopener noreferrer"
+              aria-label={`Check details for ${camera.brand} ${camera.name}`}
+              className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
+            >
+              Check Product Details
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+          </div>
+        </div>
+
+        <div className="mt-7">
+          <h4 className="text-base font-bold text-slate-900">
+            Features That May Help You
+          </h4>
+          <ul className="mt-4 space-y-3">
+            {camera.features.map((feature) => (
+              <Feature key={feature}>{feature}</Feature>
+            ))}
+          </ul>
+        </div>
+
+        <div className="mt-7">
+          <h4 className="text-base font-bold text-slate-900">
+            Check the Specifications
+          </h4>
+          <dl className="mt-3 grid gap-3 sm:grid-cols-2">
+            {specifications.map(([label, value]) => (
+              <div
+                key={label}
+                className="min-w-0 rounded-xl border border-slate-100 bg-slate-50 p-3.5"
+              >
+                <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">
+                  {label}
+                </dt>
+                <dd className="mt-1.5 break-words text-sm leading-6 text-slate-800">
+                  {value}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4">
+          <div className="flex items-start gap-3">
+            <Info
+              size={19}
+              className="mt-0.5 shrink-0 text-amber-700"
+              aria-hidden="true"
+            />
+            <div>
+              <h4 className="font-bold text-amber-950">
+                What Should You Check Before Buying?
+              </h4>
+              <p className="mt-2 text-sm leading-6 text-amber-950/90">
+                {camera.limitation}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href={camera.link}
+          target="_blank"
+          rel="sponsored nofollow noopener noreferrer"
+          className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-blue-700 hover:text-blue-900"
+        >
+          View Camera Details
+          <ArrowRight size={16} aria-hidden="true" />
+        </a>
+      </div>
+    </article>
+  );
+}
+
 export default function PetMonitoringCamerasPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-white text-slate-900">
-      {/* HERO: START WITH THE READER'S PROBLEM */}
+      {/* CENTERED HERO */}
       <section className="relative isolate border-b border-blue-100 bg-gradient-to-br from-blue-50 via-white to-sky-100">
         <div
           aria-hidden="true"
@@ -240,37 +366,37 @@ export default function PetMonitoringCamerasPage() {
           className="pointer-events-none absolute -bottom-32 -left-24 h-80 w-80 rounded-full bg-sky-200/40 blur-3xl"
         />
 
-        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
-          <div className="max-w-5xl">
-            <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-sm font-bold text-blue-700 shadow-sm">
+        <div className="relative mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
+          <div className="mx-auto max-w-5xl text-center">
+            <div className="inline-flex items-center justify-center gap-2 rounded-full border border-blue-200 bg-white/90 px-4 py-2 text-sm font-bold text-blue-700 shadow-sm">
               <Heart size={17} aria-hidden="true" />
               A PRACTICAL GUIDE FOR PET OWNERS
             </div>
 
-            <h1 className="mt-7 max-w-5xl text-4xl font-bold leading-[1.12] tracking-tight text-slate-950 sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="mt-7 text-4xl font-bold leading-[1.12] tracking-tight text-slate-950 sm:text-5xl md:text-6xl lg:text-7xl">
               Are You Looking to Monitor Your Animals at Home?
             </h1>
 
-            <p className="mt-7 max-w-3xl text-lg leading-8 text-slate-700 sm:text-xl sm:leading-9">
+            <p className="mx-auto mt-7 max-w-3xl text-lg leading-8 text-slate-700 sm:text-xl sm:leading-9">
               Do you leave your dog, cat or other companion alone when you
               go to work, shopping or travel? Do you wonder whether your pet
               is sleeping, moving around or getting into trouble while
               you&apos;re away?
             </p>
 
-            <p className="mt-4 max-w-3xl text-base leading-7 text-slate-600 sm:text-lg">
+            <p className="mx-auto mt-4 max-w-3xl text-base leading-7 text-slate-600 sm:text-lg">
               An indoor monitoring camera can help you check live footage
               from your phone. Depending on the model, you may also be able
               to listen, talk through the camera, receive activity alerts
               and review recordings.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
               {[
-                { icon: Smartphone, text: "Check remotely" },
-                { icon: MessageCircle, text: "Listen and talk" },
-                { icon: Moon, text: "Night monitoring" },
-                { icon: BellRing, text: "Activity alerts" },
+                { icon: Smartphone, text: "Check Remotely" },
+                { icon: MessageCircle, text: "Listen and Talk" },
+                { icon: Moon, text: "Night Monitoring" },
+                { icon: BellRing, text: "Activity Alerts" },
               ].map(({ icon: Icon, text }) => (
                 <div
                   key={text}
@@ -286,7 +412,7 @@ export default function PetMonitoringCamerasPage() {
               ))}
             </div>
 
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
               <a
                 href="#compare-cameras"
                 className="inline-flex min-h-14 items-center justify-center gap-2 rounded-xl bg-blue-600 px-7 py-4 font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200"
@@ -302,7 +428,7 @@ export default function PetMonitoringCamerasPage() {
               </a>
             </div>
 
-            <p className="mt-5 max-w-2xl text-xs leading-5 text-slate-500">
+            <p className="mx-auto mt-5 max-w-2xl text-xs leading-5 text-slate-500">
               This guide compares the features supplied in the product
               listings. Always confirm the exact model specifications
               before purchasing.
@@ -311,254 +437,132 @@ export default function PetMonitoringCamerasPage() {
         </div>
       </section>
 
-      {/* EXPLAIN THE PROBLEM BEFORE SHOWING PRODUCTS */}
+      {/* BUYING NEEDS */}
       <section
         id="choose-camera"
-        className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8"
+        className="scroll-mt-6 py-14 sm:py-20"
       >
-        <div className="max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-wider text-blue-600">
-            Start with your needs
-          </p>
-          <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            What Do You Want to Know About Your Pet When You&apos;re Away?
-          </h2>
-          <p className="mt-5 text-base leading-7 text-slate-600 sm:text-lg">
-            Not every camera solves the same problem. Think about your
-            pet&apos;s routine, the area you want to monitor and which
-            features would genuinely help you.
-          </p>
-        </div>
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionIntro
+            eyebrow="Start With Your Needs"
+            title="What Do You Want to Know About Your Pet When You're Away?"
+            description="Not every camera solves the same problem. Think about your pet's routine, the area you want to monitor and which features would genuinely help you."
+          />
 
-        <div className="mt-9 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {buyingChecks.map(({ icon: Icon, title, description }) => (
-            <article
-              key={title}
-              className="group rounded-2xl border border-slate-200 bg-white p-6 transition duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/5"
-            >
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition group-hover:bg-blue-600 group-hover:text-white">
-                <Icon size={23} aria-hidden="true" />
-              </div>
-              <h3 className="mt-5 text-lg font-bold leading-snug text-slate-900">
-                {title}
-              </h3>
-              <p className="mt-3 text-sm leading-7 text-slate-600">
-                {description}
-              </p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      {/* FIVE CAMERA OPTIONS */}
-      <section
-        id="compare-cameras"
-        className="scroll-mt-6 border-y border-blue-100 bg-gradient-to-b from-blue-50/80 via-white to-white"
-      >
-        <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
-          <div className="max-w-3xl">
-            <p className="text-sm font-bold uppercase tracking-wider text-blue-600">
-              Explore your options
-            </p>
-            <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-              5 Cameras to Help You Monitor Animals at Home
-            </h2>
-            <p className="mt-5 text-base leading-7 text-slate-600 sm:text-lg">
-              Compare viewing coverage, night vision, audio, alerts and
-              recording options. Choose based on what you need to monitor,
-              rather than on the number of features alone.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-6 lg:grid-cols-2">
-            {cameras.map((camera) => (
+          <div className="mt-10 grid items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {buyingChecks.map(({ icon: Icon, title, description }) => (
               <article
-                key={camera.id}
-                id={`product-${camera.id}`}
-                className="scroll-mt-6 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/5"
+                key={title}
+                className="group h-full rounded-2xl border border-slate-200 bg-white p-6 transition duration-200 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/5 sm:p-7"
               >
-                <div className="p-4 sm:p-6">
-                  <div className="flex flex-wrap items-center justify-between gap-3">
-                    <span className="rounded-full bg-blue-50 px-3 py-1.5 text-xs font-bold uppercase tracking-wide text-blue-700">
-                      Option {camera.id}
-                    </span>
-                    <span className="rounded-full border border-slate-200 px-3 py-1.5 text-xs font-bold text-slate-600">
-                      {camera.label}
-                    </span>
-                  </div>
-
-                  <div className="mt-5 grid gap-5 sm:grid-cols-[0.9fr_1.1fr]">
-                    <ProductImage camera={camera} />
-
-                    <div className="min-w-0">
-                      <p className="text-sm font-bold text-blue-600">
-                        {camera.brand}
-                      </p>
-                      <h3 className="mt-2 text-xl font-bold leading-snug tracking-tight text-slate-950 sm:text-2xl">
-                        {camera.name}
-                      </h3>
-                      <p className="mt-3 text-sm leading-7 text-slate-600">
-                        {camera.bestFor}
-                      </p>
-
-                      <a
-                        href={camera.link}
-                        aria-label={`Check details for ${camera.brand} ${camera.name}`}
-                        className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-3 text-sm font-bold text-white transition hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 sm:w-auto"
-                      >
-                        Check Product Details
-                        <ArrowUpRight size={17} aria-hidden="true" />
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="mt-7">
-                    <h4 className="text-base font-bold text-slate-900">
-                      Features That May Help You
-                    </h4>
-                    <ul className="mt-4 space-y-3">
-                      {camera.features.map((feature) => (
-                        <Feature key={feature}>{feature}</Feature>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="mt-7">
-                    <h4 className="text-base font-bold text-slate-900">
-                      Check the Specifications
-                    </h4>
-                    <dl className="mt-3 grid gap-3 sm:grid-cols-2">
-                      {[
-                        ["Resolution", camera.resolution],
-                        ["Night vision", camera.vision],
-                        ["Audio", camera.audio],
-                        ["Viewing movement", camera.movement],
-                        ["Recording storage", camera.storage],
-                        ["Connectivity", camera.connection],
-                      ].map(([label, value]) => (
-                        <div
-                          key={label}
-                          className="rounded-xl border border-slate-100 bg-slate-50 p-3.5"
-                        >
-                          <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">
-                            {label}
-                          </dt>
-                          <dd className="mt-1.5 text-sm leading-6 text-slate-800">
-                            {value}
-                          </dd>
-                        </div>
-                      ))}
-                    </dl>
-                  </div>
-
-                  <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4">
-                    <div className="flex items-start gap-3">
-                      <Info
-                        size={19}
-                        className="mt-0.5 shrink-0 text-amber-700"
-                        aria-hidden="true"
-                      />
-                      <div>
-                        <h4 className="font-bold text-amber-950">
-                          What Should You Check Before Buying?
-                        </h4>
-                        <p className="mt-2 text-sm leading-6 text-amber-950/90">
-                          {camera.limitation}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <a
-                    href={camera.link}
-                    className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-blue-700 hover:text-blue-900"
-                  >
-                    View camera details
-                    <ArrowRight size={16} aria-hidden="true" />
-                  </a>
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition group-hover:bg-blue-600 group-hover:text-white">
+                  <Icon size={23} aria-hidden="true" />
                 </div>
+                <h3 className="mt-5 text-lg font-bold leading-snug text-slate-900">
+                  {title}
+                </h3>
+                <p className="mt-3 text-sm leading-7 text-slate-600">
+                  {description}
+                </p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* COMPARISON TABLE */}
-      <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
-        <div className="max-w-3xl">
-          <p className="text-sm font-bold uppercase tracking-wider text-blue-600">
-            Compare before choosing
-          </p>
-          <h2 className="mt-3 text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Which Camera Fits Your Monitoring Needs?
-          </h2>
-          <p className="mt-4 leading-7 text-slate-600">
-            Use this table to compare the main features at a glance. Confirm
-            the exact specifications for the model you intend to purchase.
-          </p>
-        </div>
+      {/* CAMERA PRODUCTS */}
+      <section
+        id="compare-cameras"
+        className="scroll-mt-6 border-y border-blue-100 bg-gradient-to-b from-blue-50/80 via-white to-white"
+      >
+        <div className="mx-auto w-full max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
+          <SectionIntro
+            eyebrow="Explore Your Options"
+            title="5 Cameras to Help You Monitor Animals at Home"
+            description="Compare viewing coverage, night vision, audio, alerts and recording options. Choose based on what you need to monitor, rather than on the number of features alone."
+          />
 
-        <div className="mt-8 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
-          <table className="w-full min-w-[850px] border-collapse text-left text-sm">
-            <thead className="bg-blue-50">
-              <tr>
-                <th className="p-4 font-bold text-slate-900">Camera</th>
-                <th className="p-4 font-bold text-slate-900">Resolution</th>
-                <th className="p-4 font-bold text-slate-900">Night vision</th>
-                <th className="p-4 font-bold text-slate-900">Audio</th>
-                <th className="p-4 font-bold text-slate-900">Storage</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100">
-              {cameras.map((camera) => (
-                <tr
-                  key={camera.id}
-                  className="align-top transition hover:bg-blue-50/40"
-                >
-                  <td className="p-4">
-                    <a
-                      href={camera.link}
-                      className="font-bold text-blue-700 hover:underline"
-                    >
-                      {camera.brand}
-                    </a>
-                    <span className="mt-1 block max-w-xs leading-6 text-slate-600">
-                      {camera.name}
-                    </span>
-                  </td>
-                  <td className="p-4 leading-6 text-slate-700">
-                    {camera.resolution}
-                  </td>
-                  <td className="p-4 leading-6 text-slate-700">
-                    {camera.vision}
-                  </td>
-                  <td className="p-4 leading-6 text-slate-700">
-                    {camera.audio}
-                  </td>
-                  <td className="p-4 leading-6 text-slate-700">
-                    {camera.storage}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="mt-10 grid items-stretch gap-6 lg:grid-cols-2">
+            {cameras.map((camera) => (
+              <CameraCard key={camera.id} camera={camera} />
+            ))}
+          </div>
         </div>
-        <p className="mt-3 text-xs leading-5 text-slate-500">
-          On phones, swipe horizontally to view the remaining columns.
-        </p>
       </section>
 
-      {/* PROBLEM-FOCUSED FAQ */}
-      <section className="border-y border-slate-100 bg-slate-50/70">
-        <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wider text-blue-600">
-            Common questions
-          </p>
-          <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-            Before You Choose a Pet Monitoring Camera
-          </h2>
+      {/* COMPARISON TABLE */}
+      <section className="py-14 sm:py-20">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionIntro
+            eyebrow="Compare Before Choosing"
+            title="Which Camera Fits Your Monitoring Needs?"
+            description="Use this table to compare the main features at a glance. Confirm the exact specifications for the model you intend to purchase."
+          />
 
-          <div className="mt-8 space-y-4">
+          <div className="mt-9 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm">
+            <table className="w-full min-w-[850px] border-collapse text-left text-sm">
+              <thead className="bg-blue-50">
+                <tr>
+                  <th className="p-4 font-bold text-slate-900">Camera</th>
+                  <th className="p-4 font-bold text-slate-900">Resolution</th>
+                  <th className="p-4 font-bold text-slate-900">Night Vision</th>
+                  <th className="p-4 font-bold text-slate-900">Audio</th>
+                  <th className="p-4 font-bold text-slate-900">Storage</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {cameras.map((camera) => (
+                  <tr
+                    key={camera.id}
+                    className="align-top transition hover:bg-blue-50/40"
+                  >
+                    <td className="p-4">
+                      <a
+                        href={camera.link}
+                        target="_blank"
+                        rel="sponsored nofollow noopener noreferrer"
+                        className="font-bold text-blue-700 hover:underline"
+                      >
+                        {camera.brand}
+                      </a>
+                      <span className="mt-1 block max-w-xs leading-6 text-slate-600">
+                        {camera.name}
+                      </span>
+                    </td>
+                    <td className="p-4 leading-6 text-slate-700">
+                      {camera.resolution}
+                    </td>
+                    <td className="p-4 leading-6 text-slate-700">
+                      {camera.vision}
+                    </td>
+                    <td className="p-4 leading-6 text-slate-700">
+                      {camera.audio}
+                    </td>
+                    <td className="p-4 leading-6 text-slate-700">
+                      {camera.storage}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mt-3 text-center text-xs leading-5 text-slate-500">
+            On phones, swipe horizontally to view the remaining columns.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="border-y border-slate-100 bg-slate-50/70">
+        <div className="mx-auto w-full max-w-4xl px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
+          <SectionIntro
+            eyebrow="Common Questions"
+            title="Before You Choose a Pet Monitoring Camera"
+            description="Understand the practical limitations before deciding which camera to buy."
+          />
+
+          <div className="mt-9 space-y-4 text-left">
             {[
               {
                 q: "Can I monitor my pet when I am away from home?",
@@ -583,17 +587,17 @@ export default function PetMonitoringCamerasPage() {
             ].map((item) => (
               <details
                 key={item.q}
-                className="group rounded-2xl border border-slate-200 bg-white p-5 open:border-blue-200 open:shadow-sm"
+                className="group rounded-2xl border border-slate-200 bg-white p-5 open:border-blue-200 open:shadow-sm sm:p-6"
               >
                 <summary className="cursor-pointer list-none font-bold leading-7 text-slate-900 marker:hidden">
                   <span className="flex items-start justify-between gap-4">
-                    {item.q}
-                    <span className="text-xl font-normal text-blue-600 transition group-open:rotate-45">
+                    <span>{item.q}</span>
+                    <span className="shrink-0 text-xl font-normal text-blue-600 transition group-open:rotate-45">
                       +
                     </span>
                   </span>
                 </summary>
-                <p className="mt-3 pr-5 text-sm leading-7 text-slate-600">
+                <p className="mt-3 pr-2 text-sm leading-7 text-slate-600">
                   {item.a}
                 </p>
               </details>
@@ -602,31 +606,33 @@ export default function PetMonitoringCamerasPage() {
         </div>
       </section>
 
-      {/* FINAL CALL TO ACTION */}
+      {/* FINAL CTA */}
       <section className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
-        <div className="relative mx-auto max-w-7xl overflow-hidden rounded-3xl bg-gradient-to-br from-blue-700 via-blue-600 to-indigo-700 px-6 py-10 text-white shadow-xl shadow-blue-900/10 sm:px-10 sm:py-14 lg:px-14 lg:py-16">
+        <div className="relative mx-auto max-w-7xl overflow-hidden rounded-3xl bg-gradient-to-br from-blue-700 via-blue-600 to-indigo-700 px-6 py-10 text-center text-white shadow-xl shadow-blue-900/10 sm:px-10 sm:py-14 lg:px-14 lg:py-16">
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -right-20 -top-24 h-72 w-72 rounded-full bg-white/10 blur-3xl"
           />
 
-          <div className="relative max-w-3xl">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/15">
+          <div className="relative mx-auto max-w-3xl">
+            <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-white/15">
               <Heart size={25} aria-hidden="true" />
             </div>
 
             <h2 className="mt-6 text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-              Want to Keep an Eye on Your Pet While You&apos;re Away?
+              Want to Keep an Eye on Your Pet While You're Away?
             </h2>
 
-            <p className="mt-5 max-w-2xl text-base leading-7 text-blue-50 sm:text-lg">
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-blue-50 sm:text-lg">
               Compare more cameras, review the features that matter to you
               and choose a monitoring setup that suits your home and your
-              animal&apos;s routine.
+              animal's routine.
             </p>
 
             <a
               href="https://www.amazon.in/s?k=best+cctv+camera+for+pet&crid=19UEI3R32M0PU&sprefix=best+cctv+camera+for+pet%2Caps%2C349&linkCode=ll2&tag=pricetaghub-21&linkId=698a636d1f7709f892913cdada0092de&ref_=as_li_ss_tl"
+              target="_blank"
+              rel="sponsored nofollow noopener noreferrer"
               className="mt-8 inline-flex min-h-14 items-center justify-center gap-2 rounded-xl bg-white px-6 py-4 font-bold text-blue-800 transition hover:bg-blue-50 focus:outline-none focus:ring-4 focus:ring-white/40"
             >
               Check More Pet Monitoring Cameras
@@ -637,8 +643,8 @@ export default function PetMonitoringCamerasPage() {
       </section>
 
       {/* TRUST AND EXPECTATIONS */}
-      <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
-        <div className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-white p-5">
+      <section className="mx-auto w-full max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+        <div className="flex items-start gap-3 rounded-2xl border border-slate-200 bg-white p-5 sm:p-6">
           <ShieldCheck
             size={21}
             className="mt-0.5 shrink-0 text-blue-600"

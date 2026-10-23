@@ -22,6 +22,7 @@ import {
   TrendingUp,
   Users,
 } from "lucide-react";
+import AdSlot from "../../../../components/AdSlot";
 
 export const metadata = {
   title: "Business Cycle Explained: 4 Phases, Causes & Examples",
@@ -439,7 +440,7 @@ export default function BusinessCyclePage() {
           </div>
         </div>
       </section>
-
+<AdSlot />
       {/* Four phases */}
       <section
         id="four-phases"
@@ -662,7 +663,7 @@ export default function BusinessCyclePage() {
           </div>
         </div>
       </section>
-
+<AdSlot />
       {/* Causes */}
       <section className="border-y border-blue-100 bg-gradient-to-b from-blue-50/70 via-white to-blue-50/60">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
@@ -812,7 +813,7 @@ export default function BusinessCyclePage() {
           </div>
         </div>
       </section>
-
+<AdSlot />
       {/* Cycle vs growth */}
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16">
         <SectionHeading

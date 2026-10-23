@@ -16,6 +16,9 @@ import {
   Wifi,
   Globe,
   Workflow,
+  ChartNoAxesCombined,
+  Wallet,
+  TrendingUp,
 } from "lucide-react";
 
 const navItems = [
@@ -88,6 +91,30 @@ const navItems = [
       },
     ],
   },
+  
+  {
+    title: "Economics",
+    href: "/economics",
+    icon: ChartNoAxesCombined,
+    children: [
+      {
+        title: "Economics Basics",
+        href: "/economics/basics",
+        icon: BookOpen,
+      },
+      {
+        title: "GDP & Economic Growth",
+        href: "/economics/gdp-and-economic-growth",
+        icon: TrendingUp,
+      },
+      {
+        title: "Inflation",
+        href: "/economics/inflation",
+        icon: Wallet,
+      },
+    ],
+  },
+
 ];
 
 export default function Navbar() {

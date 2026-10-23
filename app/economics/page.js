@@ -12,7 +12,7 @@ import {
   BadgeIndianRupee,
   Scale,
   Lightbulb,
-  ArrowUpRight,
+  ArrowUpRight
 } from "lucide-react";
 import Link from "next/link";
 export const metadata = {
@@ -73,6 +73,31 @@ const topics = [
     "Business Cycle",
   ],
   href:'/economics/gdp-and-economic-growth'
+},
+{
+  title: "Inflation",
+  description:
+    "Understand what inflation means, why prices rise, how inflation is calculated, and how it affects purchasing power and the economy.",
+  icon: ChartNoAxesCombined,
+  color: "bg-blue-50 text-blue-700",
+  border: "border-blue-200",
+  items: [
+    "What Is Inflation?",
+    "Inflation Rate Formula",
+    "Consumer Price Index (CPI)",
+    "CPI Vs WPI",
+    "Wholesale Price Index India",
+    "Demand-Pull Inflation",
+    "Cost-Push Inflation",
+    "Core Vs Headline Inflation",
+    "Types of Inflation",
+    "Effects of Inflation",
+    "Purchasing Power and Inflation",
+    "Inflation Vs Deflation",
+    "Hyperinflation",
+    "Stagflation",
+  ],
+  href: "/economics/inflation",
 },
   
 ];
