@@ -626,7 +626,7 @@ export default function PetMonitoringCamerasPage() {
             </p>
 
             <a
-              href="/pet-monitoring-cameras/more"
+              href="https://www.amazon.in/s?k=best+cctv+camera+for+pet&crid=19UEI3R32M0PU&sprefix=best+cctv+camera+for+pet%2Caps%2C349&linkCode=ll2&tag=pricetaghub-21&linkId=698a636d1f7709f892913cdada0092de&ref_=as_li_ss_tl"
               className="mt-8 inline-flex min-h-14 items-center justify-center gap-2 rounded-xl bg-white px-6 py-4 font-bold text-blue-800 transition hover:bg-blue-50 focus:outline-none focus:ring-4 focus:ring-white/40"
             >
               Check More Pet Monitoring Cameras
