@@ -22,6 +22,26 @@ export default function BasicsLayout({ children }) {
                                                        {
                                                         href:'/economics/inflation/consumer-price-index',
                                                         label:'Consumer Price Index'
+                                                       },
+                                                        {
+                                                        href:'/economics/inflation/wholesale-price-index-india',
+                                                        label:'Wholesale Price Index of India'
+                                                       },
+                                                       {
+                                                        href:'/economics/inflation/cpi-vs-wpi',
+                                                        label:'CPI vs WPI'
+                                                       },
+                                                        {
+                                                        href:'/economics/inflation/demand-pull-inflation',
+                                                        label:'Demand Pull Inflation'
+                                                       },
+                                                       {
+                                                        href:'/economics/inflation/cost-push-inflation',
+                                                        label:'Cost Push Inflation'
+                                                       },
+                                                        {
+                                                        href:'/economics/inflation/effects-of-inflation',
+                                                        label:'Effects of Inflation'
                                                        }
                                                       ]}
                                                            />
