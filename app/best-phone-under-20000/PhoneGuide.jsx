@@ -34,7 +34,7 @@ const phones = [
     summary:
       "A large-battery option for everyday browsing, calls and general use. Verify the battery capacity and charging specifications on the seller listing before buying.",
     color: "from-green-50 to-white",
-    amazon: "https://www.amazon.in/dp/B0H2X5SRQX?tag=pricetaghub-21",
+    amazon: "https://www.amazon.in/Motorola-Impenetrable-6-67-inch-Dimensity-Charging/dp/B0H2X5SRQX?crid=2W3Q5LC2FX8Q&dib=eyJ2IjoiMSJ9.j85yny7dWPLPEP6NPWvVeU7CUAyEsi5g_jyOcWCWd3eVNV-FTaHFAN18QO99VddEaDtJ3xPtHVYxPGWBCc3DARKGiUUSUj_ECds9xj0AbrrQfNV7W1BnKDnuwe9a7Zw3_vRzD5PtM-9YgD63m-zlSgTiR3P4FR24-xfjXO3iqmRzNNdwZU_4Ex2WZatFVbpPZ0KhGSrut1vDCGCMzUE9fIxuGbY3mjhXfM-1sae2FoQ.M5V2UPckoV0WqXxxEzZ0Kb7yB_nZhf4SGy3KZzTYMS4&dib_tag=se&keywords=smartphone+under+20000+5g+mobile&qid=1792814601&sprefix=smartphone+under+20000%2Caps%2C307&sr=8-21&linkCode=ll2&tag=pricetaghub-21&linkId=0fe0db3fcb0c14b4a7fd32bc8aa960ba&ref_=as_li_ss_tl",
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const phones = [
     summary:
       "A balanced choice if you want a large battery, fast charging and a 50MP main camera.",
     color: "from-purple-50 to-white",
-    amazon: "https://www.amazon.in/dp/B0GPDK4MMN?tag=pricetaghub-21",
+    amazon: "https://www.amazon.in/OPPO-Smartphone-Prism-Violet-Storage/dp/B0GPDK4MMN?crid=2W3Q5LC2FX8Q&dib=eyJ2IjoiMSJ9.j85yny7dWPLPEP6NPWvVeU7CUAyEsi5g_jyOcWCWd3eVNV-FTaHFAN18QO99VddEaDtJ3xPtHVYxPGWBCc3DARKGiUUSUj_ECds9xj0AbrrQfNV7W1BnKDnuwe9a7Zw3_vRzD5PtM-9YgD63m-zlSgTiR3P4FR24-xfjXO3iqmRzNNdwZU_4Ex2WZatFVbpPZ0KhGSrut1vDCGCMzUE9fIxuGbY3mjhXfM-1sae2FoQ.M5V2UPckoV0WqXxxEzZ0Kb7yB_nZhf4SGy3KZzTYMS4&dib_tag=se&keywords=smartphone+under+20000+5g+mobile&qid=1792814601&sprefix=smartphone+under+20000%2Caps%2C307&sr=8-17&linkCode=ll2&tag=pricetaghub-21&linkId=22e7911c11a139cda3f1aa82769d46b8&ref_=as_li_ss_tl",
   },
   {
     id: 3,
@@ -74,7 +74,7 @@ const phones = [
     reviews: "1,271 reviews",
     bestFor: ["software", "everyday", "camera"],
     color: "from-blue-50 to-white",
-    amazon: "https://www.amazon.in/dp/B0GN24SV22?tag=pricetaghub-21",
+    amazon: "https://www.amazon.in/Samsung-Storage-Smoothest-Refresh-Upgrades/dp/B0GN24SV22?crid=2W3Q5LC2FX8Q&dib=eyJ2IjoiMSJ9.j85yny7dWPLPEP6NPWvVeU7CUAyEsi5g_jyOcWCWd3eVNV-FTaHFAN18QO99VddEaDtJ3xPtHVYxPGWBCc3DARKGiUUSUj_ECds9xj0AbrrQfNV7W1BnKDnuwe9a7Zw3_vRzD5PtM-9YgD63m-zlSgTiR3P4FR24-xfjXO3iqmRzNNdwZU_4Ex2WZatFVbpPZ0KhGSrut1vDCGCMzUE9fIxuGbY3mjhXfM-1sae2FoQ.M5V2UPckoV0WqXxxEzZ0Kb7yB_nZhf4SGy3KZzTYMS4&dib_tag=se&keywords=smartphone+under+20000+5g+mobile&qid=1792814601&sprefix=smartphone+under+20000%2Caps%2C307&sr=8-13&linkCode=ll2&tag=pricetaghub-21&linkId=a7eb226258ebd3ece5ebdb1b1a4a3d11&ref_=as_li_ss_tl",
     summary:
       "A lower-priced option with a 50MP main camera and Samsung software-support claims that are worth checking against the official listing.",
   },
@@ -95,7 +95,7 @@ const phones = [
     reviews: "176 reviews",
     bestFor: ["battery", "display"],
     color: "from-orange-50 to-white",
-    amazon: "https://www.amazon.in/dp/B0H7SB1JH7?tag=pricetaghub-21",
+    amazon: "https://www.amazon.in/OnePlus-36-Months-Smoothness-Military-Grade-Durability/dp/B0H7SB1JH7?crid=2W3Q5LC2FX8Q&dib=eyJ2IjoiMSJ9.j85yny7dWPLPEP6NPWvVeU7CUAyEsi5g_jyOcWCWd3eVNV-FTaHFAN18QO99VddEaDtJ3xPtHVYxPGWBCc3DARKGiUUSUj_ECds9xj0AbrrQfNV7W1BnKDnuwe9a7Zw3_vRzD5PtM-9YgD63m-zlSgTiR3P4FR24-xfjXO3iqmRzNNdwZU_4Ex2WZatFVbpPZ0KhGSrut1vDCGCMzUE9fIxuGbY3mjhXfM-1sae2FoQ.M5V2UPckoV0WqXxxEzZ0Kb7yB_nZhf4SGy3KZzTYMS4&dib_tag=se&keywords=smartphone+under+20000+5g+mobile&qid=1792814601&sprefix=smartphone+under+20000%2Caps%2C307&sr=8-11&linkCode=ll2&tag=pricetaghub-21&linkId=78617781aff3e9149e9d687fa4e77a06&ref_=as_li_ss_tl",
     summary:
       "A battery-focused option with a high-refresh-rate display, but its 64GB storage and 13MP camera may not suit everyone.",
   },
@@ -116,7 +116,7 @@ const phones = [
     reviews: "802 reviews",
     bestFor: ["storage", "multitasking", "display", "camera"],
     color: "from-red-50 to-white",
-    amazon: "https://www.amazon.in/dp/B0G2B251KD?tag=pricetaghub-21",
+    amazon: "https://www.amazon.in/15C-Moonlight-Segments-MediaTek-Dimensity/dp/B0G2B251KD?crid=2W3Q5LC2FX8Q&dib=eyJ2IjoiMSJ9.j85yny7dWPLPEP6NPWvVeU7CUAyEsi5g_jyOcWCWd3eVNV-FTaHFAN18QO99VddEaDtJ3xPtHVYxPGWBCc3DARKGiUUSUj_ECds9xj0AbrrQfNV7W1BnKDnuwe9a7Zw3_vRzD5PtM-9YgD63m-zlSgTiR3P4FR24-xfjXO3iqmRzNNdwZU_4Ex2WZatFVbpPZ0KhGSrut1vDCGCMzUE9fIxuGbY3mjhXfM-1sae2FoQ.M5V2UPckoV0WqXxxEzZ0Kb7yB_nZhf4SGy3KZzTYMS4&dib_tag=se&keywords=smartphone+under+20000+5g+mobile&qid=1792814601&sprefix=smartphone+under+20000%2Caps%2C307&sr=8-3&linkCode=ll2&tag=pricetaghub-21&linkId=5d7f3d4ae471d9786f0023a7c62bae75&ref_=as_li_ss_tl",
     summary:
       "A useful option if you want 6GB RAM, 128GB storage, a large display and a 50MP camera in this price range.",
   },
@@ -641,7 +641,17 @@ export default function PhoneGuide() {
             ))}
           </div>
         </section>
-
+ <section className="flex justify-center py-2">
+          <a
+            href="https://www.amazon.in/s?k=smartphone+under+20000+5g+mobile&crid=2BCBWO68CMN5Z&sprefix=smartp%2Caps%2C639&linkCode=ll2&tag=pricetaghub-21&linkId=4283e0d35493af1f580b98c11786b2f1&ref_=as_li_ss_tl"
+            target="_blank"
+            rel="noopener noreferrer sponsored"
+            className="inline-flex w-full max-w-md items-center justify-center gap-2 rounded-xl bg-blue-700 px-6 py-4 text-center font-bold text-white shadow-md transition hover:bg-blue-800"
+          >
+            Find More Smartphones Under ₹20,000
+            <ChevronRight size={20} />
+          </a>
+        </section>
         <section>
           <SectionTitle
             eyebrow="Buying Advice"
