@@ -42,6 +42,28 @@ export default function BasicsLayout({ children }) {
                                                         {
                                                         href:'/economics/inflation/effects-of-inflation',
                                                         label:'Effects of Inflation'
+                                                       },
+                                                       {
+                                                        href:'/economics/inflation/core-vs-headline-inflation',
+                                                        label:'Core Vs Headline Inflation'
+                                                       },
+                                                       {
+                                                        href:'/economics/inflation/hyperinflation',
+                                                        label:'HyperInflation'
+                                                       },{
+                                                        href:'/economics/inflation/inflation-rate-formula',
+                                                        label:'Inflation Rate Formula'
+                                                       },{
+                                                        href:'/economics/inflation/inflation-vs-deflation',
+                                                        label:'Inflation Vs Deflation'
+                                                       },
+                                                       {
+                                                        href:'/economics/inflation/purchasing-power-and-inflation',
+                                                        label:'Purchasing Power and Inflation'
+                                                       },
+                                                       {
+                                                        href:'/economics/inflation/stagflation',
+                                                        label:'Stagflation'
                                                        }
                                                       ]}
                                                            />
