@@ -151,19 +151,21 @@ function BuyButton({ children = "Check Price on Amazon" }) {
   );
 }
 
+
 function ProductImage({ src, alt, priority = false }) {
   return (
-    <div className="relative h-64 w-full overflow-hidden bg-slate-100 sm:h-80 lg:h-[420px]">
+    <div className="relative w-full overflow-hidden bg-white">
       <img
         src={src}
         alt={alt}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
-        className="h-full w-full object-cover object-center"
+        className="block h-auto w-full max-w-full object-contain"
       />
     </div>
   );
 }
+
 
 export default function SolarSecurityCameraPage() {
   return (
