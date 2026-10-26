@@ -99,30 +99,26 @@ const features = [
 
 const imageSlots = [
   {
-    src: "/images/solar-camera-2.jpg",
-    alt: "XUGA solar 4G CCTV camera product image",
-    caption: "Product design and camera housing",
+    src: "/solar-camera/solar-camera-2.jfif",
+    alt: "",
+    caption: ",
   },
   {
-    src: "/images/solar-camera-3.jpg",
-    alt: "XUGA outdoor solar CCTV camera lens details",
-    caption: "Lens arrangement and viewing design",
+    src: "/solar-camera/solar-camera-3.jfif",
+    alt: "",
+    caption: "",
   },
   {
-    src: "/images/solar-camera-4.jpg",
-    alt: "XUGA solar panel and camera setup",
-    caption: "Solar panel and power setup",
+    src: "/solar-camera/solar-camera-4.jfif",
+    alt: "",
+    caption: "",
   },
   {
-    src: "/images/solar-camera-5.jpg",
-    alt: "XUGA CCTV camera installation example",
-    caption: "Outdoor mounting and installation",
+    src: "/solar-camera/solar-camera-5.jfif",
+    alt: "",
+    caption: "",
   },
-  {
-    src: "/images/solar-camera-6.jpg",
-    alt: "XUGA 4G security camera app and features",
-    caption: "Mobile monitoring and product features",
-  },
+  
 ];
 
 function SectionHeading({ eyebrow, title, description }) {
@@ -235,7 +231,7 @@ export default function SolarSecurityCameraPage() {
           {/* MAIN IMAGE: solar-camera-1 */}
           <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
             <ProductImage
-              src="/images/solar-camera-1.jpg"
+              src="/solar-camera/solar-camera-1.jpg"
               alt="XUGA Cybernautt X10T-S solar-assisted 4G outdoor CCTV camera"
               priority
             />
