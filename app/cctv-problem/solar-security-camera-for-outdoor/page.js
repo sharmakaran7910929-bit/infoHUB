@@ -101,7 +101,7 @@ const imageSlots = [
   {
     src: "/solar-camera/solar-camera-2.jfif",
     alt: "",
-    caption: ",
+    caption: "",
   },
   {
     src: "/solar-camera/solar-camera-3.jfif",
