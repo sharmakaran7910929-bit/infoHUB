@@ -100,6 +100,40 @@ const topics = [
   href: "/economics/inflation",
 },
   
+{
+  title: "Fiscal Policy",
+  description:
+    "Understand how government spending, taxation and fiscal decisions influence economic growth, employment, inflation and budget deficits.",
+  icon: Landmark,
+  color: "bg-blue-50 text-blue-700",
+  border: "border-blue-200",
+  items: [
+    "What Is Fiscal Policy?",
+    "Expansionary Fiscal Policy",
+    "Contractionary Fiscal Policy",
+    "Tools Of Fiscal Policy",
+  ],
+  href: "/economics/fiscal-policy",
+},
+{
+  title: "Monetary Policy",
+  description:
+    "Understand how central banks influence interest rates, money and credit, inflation, and economic growth through monetary policy.",
+  icon: Landmark,
+  color: "bg-indigo-50 text-indigo-700",
+  border: "border-indigo-200",
+  items: [
+    "What Is Monetary Policy?",
+    "Monetary Policy Tools",
+    "Expansionary Monetary Policy",
+    "Contractionary Monetary Policy",
+    "RBI and Monetary Policy",
+    "What Is Repo Rate?",
+    "Repo Rate vs Reverse Repo Rate",
+  ],
+  href: "/economics/monetary-policy",
+},
+
 ];
 
 const learningSteps = [
