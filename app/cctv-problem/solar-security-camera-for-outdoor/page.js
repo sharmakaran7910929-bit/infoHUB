@@ -30,7 +30,7 @@ export const metadata = {
 };
 
 const amazonUrl =
-  "https://www.amazon.in/dp/B0FWXWR6FY?tag=pricetaghub-21";
+"https://www.amazon.in/gp/aw/d/B0FWXWR6FY?pd_rd_plhdr=t&hsa_cr_id=0&qid=1793001549&sr=1-1-941ebe59-d25b-49d0-b214-12cc5b66c90f&i=aps&aref=nav_ya_signin&_encoding=UTF8&pd_rd_w=RKcCF&content-id=amzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1%3Aamzn1.sym.7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_p=7b6188a8-103f-4f88-b43a-19aba06e30c1&pf_rd_r=BFH16HFXWZYHHJ03KP6R&pd_rd_wg=9gLZX&pd_rd_r=f1cfc659-68b2-4f1c-aa9e-be2338d6f034&linkCode=ll2&tag=pricetaghub-21&linkId=800d4600a32ccf3c30c79b48c289f5bc&ref_=as_li_ss_tl"
 
 const specifications = [
   ["Brand / Model", "XUGA Cybernautt X10T-S"],
