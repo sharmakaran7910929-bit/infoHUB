@@ -221,11 +221,7 @@ export default function SolarSecurityCameraPage() {
               </div>
             </div>
 
-            <p className="mt-4 text-xs leading-5 text-slate-500">
-              Affiliate disclosure: PriceTag HUB may earn a commission from
-              qualifying purchases through links on this page, at no additional
-              cost to you.
-            </p>
+            
           </div>
 
           {/* MAIN IMAGE: solar-camera-1 */}
