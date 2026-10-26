@@ -20,7 +20,7 @@ import {
 
 export const metadata = {
   title:
-    "Solar Security Camera for Outdoor Use: XUGA 4G CCTV | PriceTag HUB",
+    "Solar Security Camera for Outdoor Use| XUGA 4G CCTV | PriceTag HUB",
   description:
     "Explore the XUGA Cybernautt X10T-S solar 4G outdoor CCTV camera, its features, specifications, SIM compatibility, storage, and buying considerations.",
   alternates: {
