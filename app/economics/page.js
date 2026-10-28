@@ -133,6 +133,24 @@ const topics = [
   ],
   href: "/economics/monetary-policy",
 },
+{
+  title: "Budget Deficit",
+  description:
+    "Understand budget deficit, fiscal deficit, revenue deficit, government borrowing, and how budget deficits affect India's economy.",
+  icon: ChartNoAxesCombined,
+  color: "bg-emerald-50 text-emerald-700",
+  border: "border-emerald-200",
+  items: [
+    "What Is Budget Deficit?",
+    "What Is Fiscal Deficit?",
+    "What Is Revenue Deficit?",
+    "What Is Primary Deficit?",
+    "Budget Deficit vs Fiscal Deficit",
+    "Fiscal Deficit vs Revenue Deficit",
+    "Effects of Budget Deficit",
+  ],
+  href: "/economics/budget-deficit",
+},
 
 ];
 

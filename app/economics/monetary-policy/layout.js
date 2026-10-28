@@ -28,10 +28,7 @@ export default function BasicsLayout({ children }) {
             href: "/economics/monetary-policy/contractionary-monetary-policy",
             label: "Contractionary Monetary Policy",
           },
-          {
-            href: "/economics/monetary-policy/rbi-and-monetary-policy",
-            label: "RBI and Monetary Policy",
-          },
+          
           {
             href: "/economics/monetary-policy/what-is-repo-rate",
             label: "What Is Repo Rate",
@@ -39,6 +36,10 @@ export default function BasicsLayout({ children }) {
           {
             href: "/economics/monetary-policy/repo-rate-vs-reverse-repo-rate",
             label: "Repo Rate vs Reverse Repo Rate",
+          },
+          {
+            href: "/economics/monetary-policy/fiscal-policy-vs-monetary-policy",
+            label: "Fiscal Vs Monetary Policy",
           },
         ]}
       />
