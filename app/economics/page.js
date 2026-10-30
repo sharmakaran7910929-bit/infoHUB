@@ -150,6 +150,26 @@ const topics = [
     "Effects of Budget Deficit",
   ],
   href: "/economics/budget-deficit",
+},{
+  title: "Unemployment",
+  description:
+    "Understand unemployment, its types, causes, unemployment rate, labour force participation, and how joblessness affects India's economy.",
+  icon: BriefcaseBusiness,
+  color: "bg-blue-50 text-blue-700",
+  border: "border-blue-200",
+  items: [
+    "What Is Unemployment?",
+    "Types of Unemployment",
+    "Causes of Unemployment",
+    "Unemployment Rate",
+    "Labour Force Participation Rate",
+    "Effects of Unemployment",
+    "Frictional Unemployment",
+    "Structural Unemployment",
+    "Cyclical Unemployment",
+    "Seasonal Unemployment",
+  ],
+  href: "/economics/unemployment",
 },
 
 ];
