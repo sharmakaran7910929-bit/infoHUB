@@ -28,7 +28,11 @@ import {
   BrainCircuit,
 } from "lucide-react";
 import AdSlot from "../../../../components/AdSlot";
-
+export const metadata = {
+  title: "Structural Unemployment | Causes, Examples, Effects & Solutions",
+  description:
+    "Understand structural unemployment, its causes, practical examples, economic effects and solutions. Learn how technological changes, skills mismatches and industrial restructuring affect employment.",
+};
 const causes = [
   {
     icon: Cpu,

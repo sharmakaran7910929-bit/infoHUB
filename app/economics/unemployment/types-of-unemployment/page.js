@@ -28,7 +28,11 @@ import {
   Layers3,
 } from "lucide-react";
 import AdSlot from "../../../../components/AdSlot";
-
+export const metadata = {
+  title: "Types of Unemployment | 12 Major Types, Examples & Differences",
+  description:
+    "Explore the major types of unemployment, including frictional, structural, cyclical, seasonal, disguised and educated unemployment, with definitions, examples and comparisons.",
+};
 const majorTypes = [
   {
     number: "01",

@@ -31,7 +31,11 @@ import {
   Zap,
 } from "lucide-react";
 import AdSlot from '../../../../components/AdSlot'
-
+export const metadata = {
+  title: "Frictional Unemployment | Meaning, Causes, Examples & Solutions",
+  description:
+    "Understand frictional unemployment, its meaning, causes, real-world examples, economic effects and solutions. Learn how job searching and career transitions create temporary unemployment.",
+};
 const examples = [
   {
     number: "01",

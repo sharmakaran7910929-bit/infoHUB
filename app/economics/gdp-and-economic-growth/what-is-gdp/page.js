@@ -18,7 +18,11 @@ import {
   BriefcaseBusiness,
   CircleHelp,
 } from "lucide-react";
-
+export const metadata = {
+  title: "What Is GDP? | Meaning, Formula, Components & Examples",
+  description:
+    "Learn what Gross Domestic Product (GDP) means, how it is calculated using expenditure, production and income methods, its four components, practical examples, importance and limitations.",
+};
 const components = [
   {
     letter: "C",
