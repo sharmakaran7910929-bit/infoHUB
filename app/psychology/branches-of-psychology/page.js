@@ -23,7 +23,6 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-import RelatedTopics from "../../../components/ContinueReading";
 import AdSlot from "../../../components/AdSlot";
 
 export const metadata = {
@@ -1033,14 +1032,7 @@ export default function BranchesOfPsychologyPage() {
       </section>
 
       {/* Related Topics */}
-      <section className="border-t border-slate-100 py-12">
-        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
-          <RelatedTopics
-            title="Explore More About Psychology"
-            links={relatedLinks}
-          />
-        </div>
-      </section>
+     
     </main>
   );
 }
