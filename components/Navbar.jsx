@@ -18,7 +18,6 @@ import {
   Terminal,
   Wifi,
   Globe,
-  Workflow,
   ChartNoAxesCombined,
   Wallet,
   TrendingUp,
@@ -28,6 +27,16 @@ import {
   Smartphone,
   Menu,
   X,
+  Brain,
+  Lightbulb,
+  Target,
+  Search,
+  Cpu,
+  Activity,
+  BarChart3,
+  Scale,
+  Flame,
+  Users,
 } from "lucide-react";
 
 const navItems = [
@@ -36,6 +45,7 @@ const navItems = [
     href: "/",
     icon: House,
   },
+
   {
     title: "Artificial Intelligence",
     shortTitle: "AI",
@@ -43,128 +53,161 @@ const navItems = [
     icon: BrainCircuit,
     children: [
       {
-        title: "AI Basics",
-        href: "/ai/basics",
-        icon: BookOpen,
-        description: "Fundamental AI concepts",
+        title: "What Is Artificial Intelligence?",
+        href: "/ai/basics/what-is-artificial-intelligence",
+        icon: BrainCircuit,
+        description: "Understand the fundamentals of AI",
+      },
+      {
+        title: "Types of Artificial Intelligence",
+        href: "/ai/basics/types-of-artificial-intelligence",
+        icon: Network,
+        description: "Explore different types of AI",
       },
       {
         title: "Generative AI",
-        href: "/ai/generative-ai",
+        href: "/ai/generative-ai/what-is-generative-ai",
         icon: Sparkles,
-        description: "AI that creates content",
+        description: "How AI creates new content",
       },
       {
         title: "Machine Learning",
-        href: "/ai/machine-learning",
-        icon: Network,
-        description: "Learning from data",
+        href: "/ai/machine-learning/what-is-machine-learning",
+        icon: Cpu,
+        description: "How machines learn from data",
+      },
+      {
+        title: "Types of Machine Learning",
+        href: "/ai/machine-learning/types-of-machine-learning",
+        icon: WorkflowIcon,
+        description: "Supervised, unsupervised and more",
       },
     ],
   },
+
   {
     title: "Networking",
     href: "/networking",
     icon: Network,
     children: [
       {
-        title: "Networking Fundamentals",
-        href: "/networking/fundamentals",
-        icon: BookOpen,
-        description: "Core networking concepts",
+        title: "Network Architecture",
+        href: "/networking/fundamentals/network-architecture",
+        icon: WorkflowIcon,
+        description: "How computer networks are structured",
       },
       {
-        title: "IP Addressing",
-        href: "/networking/ip-addressing",
-        icon: Globe,
-        description: "IPv4, IPv6 and subnetting",
+        title: "Network Topology",
+        href: "/networking/fundamentals/network-topology",
+        icon: Network,
+        description: "Different network layouts",
       },
       {
         title: "Network Devices",
         href: "/networking/network-devices",
         icon: Router,
-        description: "Routers, switches and devices",
+        description: "Routers, switches and other devices",
+      },
+      {
+        title: "IP Address Basics",
+        href: "/networking/ip-addressing/ip-address-basics",
+        icon: Globe,
+        description: "Understand IP addressing",
+      },
+      {
+        title: "Subnetting",
+        href: "/networking/ip-addressing/subnetting",
+        icon: Terminal,
+        description: "Divide networks into subnets",
       },
       {
         title: "Network Security",
-        href: "/networking/network-security",
+        href: "/networking/network-security/firewalls-and-ips",
         icon: ShieldCheck,
-        description: "Network protection",
+        description: "Firewalls and intrusion prevention",
       },
       {
-        title: "Network Tools",
-        href: "/networking/network-tools",
-        icon: Terminal,
-        description: "Network analysis tools",
-      },
-      {
-        title: "Protocols & Architecture",
-        href: "/networking/protocols-and-architecture",
-        icon: Workflow,
-        description: "Network communication",
-      },
-      {
-        title: "Wi-Fi & Routers",
-        href: "/networking/wifi-and-routers",
+        title: "Wi-Fi Troubleshooting",
+        href: "/networking/wifi-and-routers/wifi-troubleshooting",
         icon: Wifi,
-        description: "Wireless networking",
+        description: "Understand and fix Wi-Fi issues",
       },
     ],
   },
+
   {
     title: "Economics",
     href: "/economics",
     icon: ChartNoAxesCombined,
     children: [
       {
-        title: "Economics Basics",
-        href: "/economics/basics",
+        title: "What Is Economics?",
+        href: "/economics/basics/what-is-economics",
         icon: BookOpen,
-        description: "Essential economic concepts",
+        description: "Understand the foundations of economics",
       },
       {
-        title: "GDP & Economic Growth",
-        href: "/economics/gdp-and-economic-growth",
+        title: "Law of Demand",
+        href: "/economics/basics/law-of-demand",
         icon: TrendingUp,
-        description: "GDP and economic performance",
+        description: "How price affects demand",
       },
       {
-        title: "Inflation",
-        href: "/economics/inflation",
+        title: "What Is GDP?",
+        href: "/economics/gdp-and-economic-growth/what-is-gdp",
+        icon: BarChart3,
+        description: "Measure economic output",
+      },
+      {
+        title: "What Is Inflation?",
+        href: "/economics/inflation/what-is-inflation",
         icon: Wallet,
-        description: "Prices and purchasing power",
+        description: "Why the general price level rises",
       },
       {
         title: "Fiscal Policy",
-        href: "/economics/fiscal-policy",
+        href: "/economics/fiscal-policy/what-is-fiscal-policy",
         icon: Landmark,
-        description: "Government spending and taxes",
+        description: "Government spending and taxation",
       },
       {
         title: "Monetary Policy",
-        href: "/economics/monetary-policy",
+        href: "/economics/monetary-policy/what-is-monetary-policy",
         icon: BriefcaseBusiness,
-        description: "Central banks and interest rates",
+        description: "Central banks and money supply",
       },
       {
         title: "Unemployment",
-        href: "/economics/unemployment",
-        icon: ChartNoAxesCombined,
+        href: "/economics/unemployment/what-is-unemployment",
+        icon: Users,
         description: "Employment and labour markets",
       },
       {
         title: "Budget Deficit",
         href: "/economics/budget-deficit",
-        icon: Wallet,
-        description: "Government budget deficits",
+        icon: Scale,
+        description: "Understanding government deficits",
       },
     ],
   },
+
   {
     title: "More",
     href: null,
     icon: BookOpen,
     children: [
+      {
+        title: "Psychology",
+        href: "/psychology",
+        icon: Brain,
+        description: "Explore the human mind and behaviour",
+      },
+      {
+        title: "Strategic Management",
+        href: "/strategic-management",
+        icon: Target,
+        description: "Business strategy and decision-making",
+      },
       {
         title: "CCTV & Security",
         href: "/cctv-problem",
@@ -181,11 +224,15 @@ const navItems = [
         title: "Smartphones",
         href: "/smartphone",
         icon: Smartphone,
-        description: "Smartphone guides",
+        description: "Smartphone guides and comparisons",
       },
     ],
   },
 ];
+
+function WorkflowIcon(props) {
+  return <Activity {...props} />;
+}
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -286,6 +333,7 @@ export default function Navbar() {
               <p className="text-sm font-bold text-slate-900">
                 Knowledge, organized.
               </p>
+
               <p className="mt-1 text-xs leading-5 text-slate-600">
                 Explore practical guides and ideas across multiple fields.
               </p>
@@ -351,7 +399,7 @@ function DesktopNavItem({ item, pathname }) {
       </button>
 
       {/* Dropdown */}
-      <div className="invisible absolute left-0 top-full z-50 w-[320px] translate-y-2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
+      <div className="invisible absolute left-0 top-full z-50 w-[340px] translate-y-2 pt-3 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white p-2 shadow-xl shadow-slate-900/10">
 
           {/* Dropdown Heading */}
@@ -364,6 +412,7 @@ function DesktopNavItem({ item, pathname }) {
               <p className="text-sm font-bold text-slate-900">
                 {item.title}
               </p>
+
               <p className="mt-0.5 text-xs text-slate-500">
                 Explore this subject
               </p>
@@ -563,6 +612,7 @@ function MobileNavItem({
                   <p className="text-sm">
                     {child.title}
                   </p>
+
                   <p className="mt-0.5 text-xs text-slate-400">
                     {child.description}
                   </p>
